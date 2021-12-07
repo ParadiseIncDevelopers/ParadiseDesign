@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">ParadiseDesign</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Authentication Fragment Values -->
+    <string name="email_entering">Login or Email</string>
+    <string name="password_entering">Enter password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome_text">Welcome to … </string>
+    <string name="checkbox_remember_text">Remember me</string>
+    <string name="forgot_password">Forgot password</string>
+
+
+    <!-- Additional Password Values -->
+    <string name="additional_password_textview">Enter 4-digit password</string>
+    <string name="additional_password">4-digit password</string>
+    <string name="submit_pincode_button">Submit</string>
+
+    <!-- Representative Fragment Values -->
+    <string name="muhasebeci_button">Muhasebeci</string>
+    <string name="bilanco_button">Bilanco defteri</string>
+    <string name="isletme_button">Isletme defteri</string>
+    <string name="basit_usul_button">Basit Usul defteri</string>
+
+    <!-- Accountant Registration Values -->
+    <string name="accountant_registration_title_text">Burada muhasebeci \nolarak kaydinizi yaptirin</string>
+    <string name="tc_kimlik_enter">TC Kimlik no</string>
+    <string name="name_enter">First name</string>
+    <string name="surname_enter">Last name</string>
+    <string name="phone_enter">Mobile number</string>
+    <string name="secure_data">Secure the entered data</string>
+    <string name="password_rules">Passwords must contain both uppercase and lowercase characters.
+        Passwords must contain at least one number.</string>
+    <string name="title_activity_accountant_registration">Muhasebeci kaydı</string>
+
+    <!-- Normal Business Taxation Registration Values -->
+    <string name="business_taxation_registration_title">Normal business taxation</string>
+    <string name="business_turkish_id">Turkish id number</string>
+    <string name="business_tax_number">Tax number</string>
+    <string name="business_enterprise_email">Enterprise email</string>
+    <string name="business_enterprise_password">Enterprise password</string>
+    <string name="business_submit_button">Welcome to Paradise!</string>
+
+    <!-- TabLayout String values -->
+    <string name="tab1_text">Menu</string>
+    <string name="tab2_text">Şirketlerim</string>
+    <string name="tab3_text">E-skm makbuzu</string>
+    <string name="tab4_text">Depo</string>
+    <string name="tab5_text">Çalışanlar</string>
+    <string name="tab6_text">Ürünlerim ve hizmetlerim</string>
+    <string name="tab7_text">Fatura işlemleri</string>
+    <string name="tab8_text">Mizan defteri</string>
+    <string name="tab9_text">Kasa/Banka işlemleri</string>
+    <string name="tab10_text">Ithalat ve ihracat</string>
+    <string name="tab11_text">Menkul kıymetler</string>
+
+    <!-- Menu Fragment | Profile fragment values -->
+    <string name="name_surname_example">Yusuf Salim Ozbek</string>
+
+
+</resources>

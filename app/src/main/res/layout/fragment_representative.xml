@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RepresentativeFragment">
+
+    <!-- TODO: Update Representative Fragment -->
+
+
+
+    <Button
+        android:id="@+id/button_accountant"
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:textColor="?attr/colorOnPrimary"
+        tools:text="Muhasebeci"
+        android:text="@string/muhasebeci_button"
+        android:textAllCaps="false"
+        android:textAppearance="?attr/textAppearanceButton"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        app:icon="@drawable/ic_user_persona"
+        app:iconSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/button_balance"
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:textColor="?attr/colorOnPrimary"
+        tools:text="Bilanco defteri"
+        android:text="@string/bilanco_button"
+        android:textAllCaps="false"
+        android:textAppearance="?attr/textAppearanceButton"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        app:icon="@drawable/ic_apartment"
+        app:iconSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_accountant" />
+
+
+
+    <Button
+        android:id="@+id/button_management"
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:textColor="?attr/colorOnPrimary"
+        tools:text="Isletme defteri"
+        android:text="@string/isletme_button"
+        android:textAllCaps="false"
+        android:textAppearance="?attr/textAppearanceButton"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        app:icon="@drawable/ic_apartment"
+        app:iconSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_balance" />
+
+
+    <Button
+        android:id="@+id/button_simple_procedures"
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:textColor="?attr/colorOnPrimary"
+        tools:text="Basit Usul defteri"
+        android:text="@string/basit_usul_button"
+        android:textAllCaps="false"
+        android:textAppearance="?attr/textAppearanceButton"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        app:icon="@drawable/ic_apartment"
+        app:iconSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_management" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
