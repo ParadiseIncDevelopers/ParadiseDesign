@@ -49,7 +49,7 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/business_tax_number"
+            android:id="@+id/business_first_name"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/business_enterprise_email"
+            android:id="@+id/business_last_name"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
             app:errorEnabled="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/business_tax_number">
+            app:layout_constraintTop_toBottomOf="@id/business_first_name">
 
 
             <com.google.android.material.textfield.TextInputEditText
@@ -92,7 +92,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/business_enterprise_password"
+            android:id="@+id/business_mobile_number"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -102,7 +102,7 @@
             app:errorEnabled="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/business_enterprise_email">
+            app:layout_constraintTop_toBottomOf="@id/business_last_name">
 
 
             <com.google.android.material.textfield.TextInputEditText
@@ -121,7 +121,7 @@
             android:text="@string/password_rules"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/business_enterprise_password" />
+            app:layout_constraintTop_toBottomOf="@id/business_mobile_number" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/signup_password"
