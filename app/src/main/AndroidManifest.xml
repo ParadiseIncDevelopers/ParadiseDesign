@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ParadiseDesign">
         <activity
+            android:name=".StarterRepresentativeActivity"
+            android:exported="true" />
+        <activity
             android:name=".tabs.TabsActivity"
             android:exported="true"
-            android:theme="@style/Theme.ParadiseDesign.NoActionBar"/>
+            android:theme="@style/Theme.ParadiseDesign.NoActionBar" />
         <activity
             android:name=".AccountantRegistrationActivity"
             android:exported="true"
