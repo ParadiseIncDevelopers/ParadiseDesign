@@ -13,10 +13,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.fragment_company_profile_change_password);
 
-        Intent intent = new Intent(this, StarterRepresentativeActivity.class);
-        startActivity(intent);
+        //Intent intent = new Intent(this, StarterRepresentativeActivity.class);
+        //startActivity(intent);
 
 
     }

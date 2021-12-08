@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ParadiseDesign">
         <activity
+            android:name=".tabs.fatura.FaturaIrsaliyeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.fatura.FaturaManualActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.products.ProductsDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.esmm.EsmmDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.company.ImageSelectActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.company.EditProfileDataActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EnterpriseProfileActivity"
+            android:exported="true" />
+        <activity
             android:name=".StarterRepresentativeActivity"
             android:exported="true" />
         <activity

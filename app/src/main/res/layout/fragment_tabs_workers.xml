@@ -48,16 +48,6 @@
         app:layout_constraintTop_toTopOf="@id/view_line">
 
         <Button
-            android:id="@+id/workers_add_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="12dp"
-            android:text="Add"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            android:layout_margin="2dp"/>
-
-        <Button
             android:id="@+id/workers_find_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -67,26 +57,6 @@
             android:textSize="14sp"
             android:layout_margin="2dp"/>
 
-        <Button
-            android:id="@+id/workers_delete_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="12dp"
-            android:text="Delete"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            android:layout_margin="2dp"/>
-
-        <Button
-            android:id="@+id/workers_update_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="12dp"
-            android:text="Update"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            android:layout_margin="2dp"
-            />
     </LinearLayout>
 
 

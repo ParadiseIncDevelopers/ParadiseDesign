@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".StarterRepresentativeActivity">
+    tools:context=".tabs.products.ProductsDetailActivity">
 
     <!-- TODO: Update Representative Fragment -->
 
 
     <Button
-        android:id="@+id/button_accountant"
+        android:id="@+id/fatura_detail_efatura_button"
         style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="340dp"
         android:layout_height="90dp"
@@ -19,10 +19,10 @@
         android:layout_marginTop="52dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/rectangular_borders_colored"
-        android:text="@string/muhasebeci_button"
+        android:text="E-fatura"
         android:textAllCaps="false"
         android:textColor="?attr/colorOnPrimary"
-        app:icon="@drawable/ic_user_persona"
+        app:icon="@drawable/ic_fatura_paper"
         app:iconSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
 
 
     <Button
-        android:id="@+id/button_balance"
+        android:id="@+id/fatura_detail_manual_button"
         style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="340dp"
         android:layout_height="90dp"
@@ -38,18 +38,18 @@
         android:layout_marginTop="52dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/rectangular_borders_colored"
-        android:text="@string/bilanco_button"
+        android:text="Manuel"
         android:textAllCaps="false"
         android:textColor="?attr/colorOnPrimary"
-        app:icon="@drawable/ic_apartment"
+        app:icon="@drawable/ic_fatura_paper"
         app:iconSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button_accountant" />
+        app:layout_constraintTop_toBottomOf="@id/fatura_detail_efatura_button" />
 
 
     <Button
-        android:id="@+id/button_management"
+        android:id="@+id/fatura_detail_irsaliye_button"
         style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="340dp"
         android:layout_height="90dp"
@@ -57,18 +57,18 @@
         android:layout_marginTop="52dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/rectangular_borders_colored"
-        android:text="@string/isletme_button"
+        android:text="Irsaliye"
         android:textAllCaps="false"
         android:textColor="?attr/colorOnPrimary"
-        app:icon="@drawable/ic_apartment"
+        app:icon="@drawable/ic_fatura_paper"
         app:iconSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button_balance" />
+        app:layout_constraintTop_toBottomOf="@id/fatura_detail_manual_button" />
 
 
     <Button
-        android:id="@+id/button_simple_procedures"
+        android:id="@+id/fatura_detail_eirsaliye_button"
         style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="340dp"
         android:layout_height="90dp"
@@ -76,14 +76,14 @@
         android:layout_marginTop="52dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/rectangular_borders_colored"
-        android:text="@string/basit_usul_button"
+        android:text="E-irsaliye"
         android:textAllCaps="false"
         android:textColor="?attr/colorOnPrimary"
-        app:icon="@drawable/ic_apartment"
+        app:icon="@drawable/ic_fatura_paper"
         app:iconSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button_management" />
+        app:layout_constraintTop_toBottomOf="@id/fatura_detail_irsaliye_button" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
