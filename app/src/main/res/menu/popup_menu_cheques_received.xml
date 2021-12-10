@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/bank_menu_option_add"
-        android:title="Add"
+        android:title="Add cheques"
         android:icon="@drawable/ic_add_plus"/>
 
     <item android:id="@+id/bank_menu_option_delete"
-        android:title="Delete"
+        android:title="Delete cheques"
         android:icon="@drawable/ic_cross_symbol" />
 
 </menu>

@@ -5,24 +5,28 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.view.menu.MenuBuilder;
 import androidx.appcompat.view.menu.MenuPopupHelper;
-import androidx.appcompat.widget.PopupMenu;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 
 import com.example.paradisedesign.R;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
 
 public class BankDetailsActivity extends AppCompatActivity {
 
-    // pop-up buttons
-    private Button cashButton, chequesReceivedButton, chequesGivenButton, liquidAssetsButton;
+
+
+    private AutoCompleteTextView autoCash, autoChequesReceived, autoChequesGiven, autoLiquidAssets;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,56 +34,54 @@ public class BankDetailsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_bank_details);
 
 
-        cashButton = findViewById(R.id.bank_detail_cash_button);
-        chequesReceivedButton = findViewById(R.id.bank_detail_cheques_received_button);
-        chequesGivenButton = findViewById(R.id.bank_detail_cheques_given_button);
-        liquidAssetsButton = findViewById(R.id.bank_detail_liquid_assets_button);
+        List<String> cashStrings = new ArrayList<>();
+        cashStrings.add("Add cash");
+        cashStrings.add("Delete cash");
+        cashStrings.add("Find cash");
+
+        List<String> chequesReceivedStrings = new ArrayList<>();
+        chequesReceivedStrings.add("Add cheques");
+        chequesReceivedStrings.add("Find cheques");
+        chequesReceivedStrings.add("Update cheques");
+
+        List<String> chequesGivenStrings = new ArrayList<>();
+        chequesGivenStrings.add("Add order");
+        chequesGivenStrings.add("Find order");
+
+        List<String> liquidAssetsStrings = new ArrayList<>();
+        liquidAssetsStrings.add("Add assets");
+        liquidAssetsStrings.add("Delete assets");
+        liquidAssetsStrings.add("Find assets");
+        liquidAssetsStrings.add("Update assets");
+
+        autoCash = findViewById(R.id.bank_details_text_input_layout_cash_auto);
+        autoChequesReceived = findViewById(R.id.bank_details_text_input_layout_cheques_received_auto);
+        autoChequesGiven = findViewById(R.id.bank_details_text_input_layout_cheques_given_auto);
+        autoLiquidAssets = findViewById(R.id.bank_details_text_input_layout_liquid_assets_auto);
 
 
 
-        cashButton.setOnClickListener(view -> showMenu(view, R.menu.popup_menu_4_options));
+        ArrayAdapter<String> cashAdapter = new ArrayAdapter<>(getApplicationContext(),
+                R.layout.dropdown_layout_item, cashStrings);
+
+        ArrayAdapter<String> chequesReceivedAdapter = new ArrayAdapter<>(getApplicationContext(),
+                R.layout.dropdown_layout_item, chequesReceivedStrings);
+
+        ArrayAdapter<String> chequesGivenAdapter = new ArrayAdapter<>(getApplicationContext(),
+                R.layout.dropdown_layout_item, chequesGivenStrings);
+
+        ArrayAdapter<String> liquidAssetsAdapter = new ArrayAdapter<>(getApplicationContext(),
+                R.layout.dropdown_layout_item, liquidAssetsStrings);
+
+        autoCash.setAdapter(cashAdapter);
+        autoChequesReceived.setAdapter(chequesReceivedAdapter);
+        autoChequesGiven.setAdapter(chequesGivenAdapter);
+        autoLiquidAssets.setAdapter(liquidAssetsAdapter);
 
 
-        chequesReceivedButton.setOnClickListener(view -> { showMenu(view, R.menu.popup_menu_2_options);
-        });
-        chequesGivenButton.setOnClickListener(view -> showMenu(view, R.menu.popup_menu_4_options));
-        liquidAssetsButton.setOnClickListener(view -> showMenu(view, R.menu.popup_menu_4_options));
 
     }
 
-    @SuppressLint("RestrictedApi")
-    private void showMenu(View view, @MenuRes int menuRes) {
-        MenuBuilder menuBuilder = new MenuBuilder(this);
-        MenuInflater inflater = new MenuInflater(this);
-        inflater.inflate(menuRes, menuBuilder);
-        MenuPopupHelper optionsMenu = new MenuPopupHelper(this, menuBuilder, view);
-        optionsMenu.setForceShowIcon(true);
 
-        menuBuilder.setCallback(new MenuBuilder.Callback() {
-            @Override
-            public boolean onMenuItemSelected(@NonNull MenuBuilder menu, @NonNull MenuItem item) {
-                switch (item.getItemId()) {
-                    case (R.id.bank_menu_option_add):
-                        return true;
-                    case (R.id.bank_menu_option_delete):
-                        return true;
-                    case (R.id.bank_menu_option_find):
-                        return true;
-                    case (R.id.bank_menu_option_update):
-                        return true;
-                    default:
-                        return false;
-                }
-            }
-
-            @Override
-            public void onMenuModeChange(@NonNull MenuBuilder menu) {
-
-            }
-        });
-
-        optionsMenu.show();
-
-    }
 
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bank_menu_option_add"
+        android:icon="@drawable/ic_add_plus"
+        android:title="Add order" />
+
+    <item android:id="@+id/bank_menu_option_delete"
+        android:icon="@drawable/ic_cross_symbol"
+        android:title="Delete order"/>
+
+    <item android:id="@+id/bank_menu_option_find"
+        android:icon="@drawable/ic_find_icon"
+        android:title="Find order"/>
+
+    <item android:id="@+id/bank_menu_option_update"
+        android:icon="@drawable/ic_update"
+        android:title="Update order"/>
+</menu>
