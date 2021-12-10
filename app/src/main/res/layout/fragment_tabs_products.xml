@@ -25,7 +25,7 @@
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginStart="8dp"
-        android:src="@drawable/ic_produtcst_and_services"
+        android:src="@drawable/ic_products_and_services"
         app:layout_constraintStart_toEndOf="@id/products_title"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -21,15 +21,20 @@ public class ProductsDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_products_detail);
 
+
+        // Heading elements
         companyName = (TextView) findViewById(R.id.product_details_name_of_company);
         taxNumber = (TextView) findViewById(R.id.product_details_tax_number);
-        mersis = (TextView) findViewById(R.id.product_details_mersis);
+        mersis = (TextView) findViewById(R.id.product_details_mersis_no);
+
 
         add = (Button) findViewById(R.id.products_details_add_button);
         find = (Button) findViewById(R.id.products_details_find_button);
         delete = (Button) findViewById(R.id.products_details_delete_button);
         update = (Button) findViewById(R.id.products_details_update_button);
 
+
+        // Elements below the buttons. Placeholders for the every bill
         productName = (TextView) findViewById(R.id.product_details_name_of_product);
         numberOfProducts = (TextView) findViewById(R.id.product_details_number_of_products);
         kdv = (TextView) findViewById(R.id.product_details_kdv);

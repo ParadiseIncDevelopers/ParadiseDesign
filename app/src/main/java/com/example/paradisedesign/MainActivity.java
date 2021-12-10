@@ -7,16 +7,17 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.paradisedesign.tabs.TabsActivity;
+import com.example.paradisedesign.tabs.bank.BankDetailsActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_company_profile_change_password);
+        setContentView(R.layout.activity_workers_detail);
 
-        //Intent intent = new Intent(this, StarterRepresentativeActivity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, BankDetailsActivity.class);
+        startActivity(intent);
 
 
     }

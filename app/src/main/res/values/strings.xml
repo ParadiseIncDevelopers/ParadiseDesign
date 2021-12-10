@@ -60,5 +60,13 @@
     <!-- Menu Fragment | Profile fragment values -->
     <string name="name_surname_example">Yusuf Salim Ozbek</string>
 
+    <!-- BankDetailsActivity values -->
+    <string-array name="popup_menu_options">
+        <item>Add</item>
+        <item>Delete</item>
+        <item>Find</item>
+        <item>Update</item>
+    </string-array>
+
 
 </resources>

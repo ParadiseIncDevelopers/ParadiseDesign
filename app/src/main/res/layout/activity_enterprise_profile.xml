@@ -457,13 +457,8 @@
                     android:text="Parolayi degistir"
                     android:textAllCaps="false"
                     android:textSize="16sp" />
-
-
             </LinearLayout>
-
         </LinearLayout>
-
-
     </LinearLayout>
 
 </ScrollView>
