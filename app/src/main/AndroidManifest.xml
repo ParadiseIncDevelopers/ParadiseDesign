@@ -10,49 +10,52 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ParadiseDesign">
         <activity
-            android:name=".tabs.bank.BankDetailsActivity"
-            android:theme="@style/Theme.ParadiseDesign.NoActionBar"
+            android:name=".tabs.workers.WorkersProfileActivity"
             android:exported="true" />
+        <activity
+            android:name=".tabs.bank.BankDetailsActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ParadiseDesign.NoActionBar" />
         <activity
             android:name=".tabs.depo.DepoDetailsActivity"
             android:exported="true"
-            android:theme="@style/Theme.ParadiseDesign.NoActionBar"/>
+            android:theme="@style/Theme.ParadiseDesign.NoActionBar" />
         <activity
             android:name=".tabs.workers.WorkersDetailActivity"
             android:exported="true"
-            android:theme="@style/Theme.ParadiseDesign.NoActionBar"/>
+            android:theme="@style/Theme.ParadiseDesign.NoActionBar" />
         <activity
             android:name=".tabs.fatura.FaturaIrsaliyeActivity"
             android:exported="true"
-            android:theme="@style/Theme.ParadiseDesign.NoActionBar"/>
+            android:theme="@style/Theme.ParadiseDesign.NoActionBar" />
         <activity
             android:name=".tabs.fatura.FaturaManualActivity"
             android:exported="true"
-            android:theme="@style/Theme.ParadiseDesign.NoActionBar"/>
+            android:theme="@style/Theme.ParadiseDesign.NoActionBar" />
         <activity
             android:name=".tabs.products.ProductsDetailActivity"
             android:exported="true"
-            android:theme="@style/Theme.ParadiseDesign.NoActionBar"/>
+            android:theme="@style/Theme.ParadiseDesign.NoActionBar" />
         <activity
             android:name=".tabs.esmm.EsmmDetailsActivity"
             android:exported="true"
-            android:theme="@style/Theme.ParadiseDesign.NoActionBar"/>
+            android:theme="@style/Theme.ParadiseDesign.NoActionBar" />
         <activity
             android:name=".tabs.company.ImageSelectActivity"
             android:exported="true"
-            android:theme="@style/Theme.ParadiseDesign.NoActionBar"/>
+            android:theme="@style/Theme.ParadiseDesign.NoActionBar" />
         <activity
             android:name=".tabs.company.EditProfileDataActivity"
             android:exported="true"
-            android:theme="@style/Theme.ParadiseDesign.NoActionBar"/>
+            android:theme="@style/Theme.ParadiseDesign.NoActionBar" />
         <activity
             android:name=".EnterpriseProfileActivity"
             android:exported="true"
-            android:theme="@style/Theme.ParadiseDesign.NoActionBar"/>
+            android:theme="@style/Theme.ParadiseDesign.NoActionBar" />
         <activity
             android:name=".StarterRepresentativeActivity"
             android:exported="true"
-            android:theme="@style/Theme.ParadiseDesign.NoActionBar"/>
+            android:theme="@style/Theme.ParadiseDesign.NoActionBar" />
         <activity
             android:name=".tabs.TabsActivity"
             android:exported="true"
