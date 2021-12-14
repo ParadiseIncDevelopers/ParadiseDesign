@@ -47,7 +47,7 @@
     <!-- TabLayout String values -->
     <string name="tab1_text">Menu</string>
     <string name="tab2_text">Şirketlerim</string>
-    <string name="tab3_text">E-skm makbuzu</string>
+    <string name="tab3_text">E-smm makbuzu</string>
     <string name="tab4_text">Depo</string>
     <string name="tab5_text">Çalışanlar</string>
     <string name="tab6_text">Ürünlerim ve hizmetlerim</string>
