@@ -33,8 +33,9 @@
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_fatura_irsaliye.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_fatura_manual.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_product_select_type.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_products_detail.xml" value="0.264" />
-        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_starter_representative.xml" value="0.4" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_starter_representative.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_tabs.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_workers_detail.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_workers_profile.xml" value="0.264" />
@@ -55,7 +56,7 @@
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_depo_details_update.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_depo_tab.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_fatura_detail.xml" value="0.264" />
-        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_fatura_details.xml" value="0.2421875" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_fatura_details.xml" value="0.4" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_first.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_products_detail_add.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_products_detail_delete.xml" value="0.228125" />

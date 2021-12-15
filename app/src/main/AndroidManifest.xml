@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ParadiseDesign">
         <activity
+            android:name=".tabs.products.ProductSelectTypeActivity"
+            android:exported="true" />
+        <activity
             android:name=".tabs.workers.WorkersProfileActivity"
             android:exported="true" />
         <activity

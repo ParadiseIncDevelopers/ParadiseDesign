@@ -5,24 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".tabs.fatura.FaturaDetailsFragment">
-
-    <!-- TODO: Update Representative Fragment -->
+    tools:context=".tabs.products.ProductSelectTypeActivity">
 
 
     <Button
-        android:id="@+id/fatura_detail_efatura_button"
+        android:id="@+id/product_select_type_ticari_button"
         style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="340dp"
         android:layout_height="70dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="140dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/rectangular_borders_colored"
-        android:text="E-fatura"
+        android:text="Ticari ürünü"
         android:textAllCaps="false"
         android:textColor="?attr/colorOnPrimary"
-        app:icon="@drawable/ic_fatura_paper"
+        app:icon="@drawable/ic_apartment"
         app:iconSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +28,7 @@
 
 
     <Button
-        android:id="@+id/fatura_detail_manual_button"
+        android:id="@+id/product_select_type_fabrika_button"
         style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="340dp"
         android:layout_height="70dp"
@@ -38,19 +36,18 @@
         android:layout_marginTop="52dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/rectangular_borders_colored"
-        android:text="Fatura"
+        android:text="Fabrika ürünü"
         android:textAllCaps="false"
         android:textColor="?attr/colorOnPrimary"
-        app:icon="@drawable/ic_fatura_paper"
+        app:icon="@drawable/ic_factory"
         app:iconSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/fatura_detail_efatura_button" />
-
+        app:layout_constraintTop_toBottomOf="@id/product_select_type_ticari_button" />
 
 
     <Button
-        android:id="@+id/fatura_detail_eirsaliye_button"
+        android:id="@+id/product_select_type_hizmet_button"
         style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="340dp"
         android:layout_height="70dp"
@@ -58,32 +55,16 @@
         android:layout_marginTop="52dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/rectangular_borders_colored"
-        android:text="E-irsaliye"
+        android:text="Hizmet ürünü"
         android:textAllCaps="false"
         android:textColor="?attr/colorOnPrimary"
-        app:icon="@drawable/ic_fatura_paper"
+        app:icon="@drawable/ic_suitcase"
         app:iconSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/fatura_detail_manual_button" />
+        app:layout_constraintTop_toBottomOf="@id/product_select_type_fabrika_button" />
 
-    <Button
-        android:id="@+id/fatura_detail_irsaliye_button"
-        style="@style/Widget.MaterialComponents.Button.Icon"
-        android:layout_width="340dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="8dp"
-        android:background="@drawable/rectangular_borders_colored"
-        android:text="Irsaliye"
-        android:textAllCaps="false"
-        android:textColor="?attr/colorOnPrimary"
-        app:icon="@drawable/ic_fatura_paper"
-        app:iconSize="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/fatura_detail_eirsaliye_button" />
+
 
 
 
