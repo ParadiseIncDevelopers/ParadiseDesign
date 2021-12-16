@@ -4,26 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tabs.products.ProductsDetailAddFragment">
+    tools:context=".tabs.bank.BankDetailsCashAddActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="32dp">
 
         <TextView
-            android:id="@+id/products_detail_add_fragment_title_tv"
+            android:id="@+id/bank_details_cash_add_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ürün bilgilerini girin"
+            android:text="Kasa bilgilerini girin"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/products_detail_add_fragment_name_of_product"
+            android:id="@+id/bank_details_cash_add_name_of_kasa"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,14 +33,14 @@
             app:errorEnabled="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/products_detail_add_fragment_title_tv">
+            app:layout_constraintTop_toBottomOf="@id/bank_details_cash_add_title">
 
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/products_detail_add_fragment_name_of_product_edit_text"
+                android:id="@+id/bank_details_cash_add_name_of_product_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Ürün adı"
+                android:hint="Kasa adı"
                 android:inputType="text" />
 
 
@@ -49,7 +48,7 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/products_detail_add_fragment_number_of_product"
+            android:id="@+id/bank_details_cash_add_kasa_number"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -59,41 +58,53 @@
             app:errorEnabled="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/products_detail_add_fragment_name_of_product">
+            app:layout_constraintTop_toBottomOf="@id/bank_details_cash_add_name_of_kasa">
 
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Miktar"
+                android:hint="Kasa numarası"
                 android:inputType="number"
                 />
         </com.google.android.material.textfield.TextInputLayout>
 
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/products_detail_add_fragment_kdv"
+            android:id="@+id/bank_details_cash_add_kasa_exchang_type"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:boxStrokeWidthFocused="2dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/products_detail_add_fragment_number_of_product">
+            app:layout_constraintTop_toBottomOf="@id/bank_details_cash_add_kasa_number">
 
 
             <AutoCompleteTextView
-                android:id="@+id/products_detail_add_fragment_kdv_auto"
+                android:id="@+id/bank_details_cash_add_kdv_auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="KDV"
+                android:hint="Kasanın döviz türü"
                 android:inputType="none"
                 />
 
         </com.google.android.material.textfield.TextInputLayout>
 
+        <CheckBox
+            android:id="@+id/bank_details_cash_add_limit_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:text="Limitli"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bank_details_cash_add_kasa_exchang_type"/>
+
+
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/products_detail_add_fragment_iskonto"
+            android:id="@+id/bank_details_cash_add_limit_of_kasa"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -104,20 +115,20 @@
             app:errorEnabled="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/products_detail_add_fragment_kdv">
+            app:layout_constraintTop_toBottomOf="@id/bank_details_cash_add_limit_checkbox">
 
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="İskonto"
+                android:hint="Kasa limiti"
                 android:inputType="numberDecimal"
                 />
         </com.google.android.material.textfield.TextInputLayout>
 
 
         <Button
-            android:id="@+id/products_detail_add_fragment_submit_button"
+            android:id="@+id/bank_details_cash_add_submit_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
@@ -129,7 +140,7 @@
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/products_detail_add_fragment_iskonto" />
+            app:layout_constraintTop_toBottomOf="@id/bank_details_cash_add_limit_of_kasa" />
 
 
 

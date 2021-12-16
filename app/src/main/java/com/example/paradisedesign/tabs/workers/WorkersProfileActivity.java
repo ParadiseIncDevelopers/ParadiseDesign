@@ -2,17 +2,22 @@ package com.example.paradisedesign.tabs.workers;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.paradisedesign.R;
+import com.example.paradisedesign.tabs.products.ProductsDetailAddActivity;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
+import java.util.function.Supplier;
 
 public class WorkersProfileActivity extends AppCompatActivity {
 
@@ -86,39 +91,116 @@ public class WorkersProfileActivity extends AppCompatActivity {
 
         workers_profile_submit_button.setOnClickListener(view ->
         {
-            //TextInputLayout
-            workersProfileMap.put("workers_profile_name", workers_profile_name.getEditText()
-                    .getText().toString());
-            workersProfileMap.put("workers_profile_tc_no", workers_profile_tc_no.getEditText()
-                    .getText().toString());
-            workersProfileMap.put("workers_profile_address", workers_profile_address.getEditText()
-                    .getText().toString());
-            workersProfileMap.put("workers_profile_position", workers_profile_position.getEditText()
-                    .getText().toString());
-            workersProfileMap.put("workers_profile_salary", Double.parseDouble(workers_profile_salary.getEditText()
-                    .getText().toString()));
-            workersProfileMap.put("workers_profile_year_of_entering", workers_profile_year_of_entering
-                    .getEditText().getText().toString());
-            workersProfileMap.put("workers_profile_mezuniyet", workers_profile_mezuniyet.getEditText()
-                    .getText().toString());
-            workersProfileMap.put("workers_profile_mezuniyet_yili", Integer.parseInt(workers_profile_mezuniyet_yili
-                    .getEditText().getText().toString()));
-            workersProfileMap.put("workers_profile_date_of_born", workers_profile_date_of_born.getEditText()
-                    .getText().toString());
-            workersProfileMap.put("workers_profile_meslek_kodu", workers_profile_meslek_kodu.getEditText()
-                    .getText().toString());
-            workersProfileMap.put("workers_profile_ssk_tesvik", Double.parseDouble(workers_profile_ssk_tesvik.getEditText()
-                    .getText().toString()));
+
+            Supplier<Boolean> allTextInputs = () -> {
+                if (checkField(workers_profile_name) && checkField(workers_profile_tc_no) &&
+                        checkField(workers_profile_address) && checkField(workers_profile_position) &&
+                        checkField(workers_profile_year_of_entering) && checkField(workers_profile_mezuniyet) &&
+                        checkField(workers_profile_mezuniyet_yili) && checkField(workers_profile_date_of_born) &&
+                        checkField(workers_profile_meslek_kodu) && checkField(workers_profile_salary))  {
+                    return true;
+                } else
+                    return false;
+        };
+
+            if (!checkField(workers_profile_name)) {
+                Toast.makeText(WorkersProfileActivity.this, "Ad soyad field is not entered.",
+                        Toast.LENGTH_SHORT).show();
+            }
+
+            if (!checkField(workers_profile_tc_no)) {
+                Toast.makeText(WorkersProfileActivity.this, "TC no field is not entered.",
+                        Toast.LENGTH_SHORT).show();
+            }
+
+            if (!checkField(workers_profile_address)) {
+                Toast.makeText(WorkersProfileActivity.this, "Adres field is not entered.",
+                        Toast.LENGTH_SHORT).show();
+            }
+
+            if (!checkField(workers_profile_position)) {
+                Toast.makeText(WorkersProfileActivity.this, "Position field is not entered.",
+                        Toast.LENGTH_SHORT).show();
+            }
+
+            if (!checkField(workers_profile_year_of_entering)) {
+                Toast.makeText(WorkersProfileActivity.this, "Date of entering field is not entered.",
+                        Toast.LENGTH_SHORT).show();
+            }
+
+            if (!checkField(workers_profile_mezuniyet)) {
+                Toast.makeText(WorkersProfileActivity.this, "Mezuniyet field is not entered.",
+                        Toast.LENGTH_SHORT).show();
+            }
+
+            if (!checkField(workers_profile_mezuniyet_yili)) {
+                Toast.makeText(WorkersProfileActivity.this, "Mezuniyet yili field is not entered.",
+                        Toast.LENGTH_SHORT).show();
+            }
+
+            if (!checkField(workers_profile_date_of_born)) {
+                Toast.makeText(WorkersProfileActivity.this, "Birthdate field is not entered.",
+                        Toast.LENGTH_SHORT).show();
+            }
+
+            if (!checkField(workers_profile_meslek_kodu)) {
+                Toast.makeText(WorkersProfileActivity.this, "Meslek kodu field is not entered.",
+                        Toast.LENGTH_SHORT).show();
+            }
+
+            if (!checkField(workers_profile_salary)) {
+                Toast.makeText(WorkersProfileActivity.this, "Salary kodu field is not entered.",
+                        Toast.LENGTH_SHORT).show();
+            }
 
 
-            //AutoCompleteTextView
-            workersProfileMap.put("workers_profile_city_auto", workers_profile_city_auto.getText().toString());
-            workersProfileMap.put("workers_profile_ilce_auto", workers_profile_ilce_auto.getText().toString());
-            workersProfileMap.put("workers_profile_sgk_auto", workers_profile_sgk_auto.getText().toString());
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                if (allTextInputs.get()) {
+                    //TextInputLayout
+                    workersProfileMap.put("workers_profile_name", workers_profile_name.getEditText()
+                            .getText().toString());
+                    workersProfileMap.put("workers_profile_tc_no", workers_profile_tc_no.getEditText()
+                            .getText().toString());
+                    workersProfileMap.put("workers_profile_address", workers_profile_address.getEditText()
+                            .getText().toString());
+                    workersProfileMap.put("workers_profile_position", workers_profile_position.getEditText()
+                            .getText().toString());
+                    workersProfileMap.put("workers_profile_salary", Double.parseDouble(workers_profile_salary.getEditText()
+                            .getText().toString()));
+                    workersProfileMap.put("workers_profile_year_of_entering", workers_profile_year_of_entering
+                            .getEditText().getText().toString());
+                    workersProfileMap.put("workers_profile_mezuniyet", workers_profile_mezuniyet.getEditText()
+                            .getText().toString());
+                    workersProfileMap.put("workers_profile_mezuniyet_yili", Integer.parseInt(workers_profile_mezuniyet_yili
+                            .getEditText().getText().toString()));
+                    workersProfileMap.put("workers_profile_date_of_born", workers_profile_date_of_born.getEditText()
+                            .getText().toString());
+                    workersProfileMap.put("workers_profile_meslek_kodu", workers_profile_meslek_kodu.getEditText()
+                            .getText().toString());
+
+                    if (!Objects.requireNonNull(workers_profile_ssk_tesvik.getEditText())
+                            .getText().toString().equals("")) {
+                        workersProfileMap.put("workers_profile_ssk_tesvik",
+                                Double.parseDouble(workers_profile_ssk_tesvik.getEditText()
+                                .getText().toString()));
+                    }
 
 
-            //FirebaseDatabase.getInstance("https://accountantparadise-4549.europe-west1.firebasedatabase.app/")
-            //       .getReference().child("accountant-workers-data").setValue(workersProfileMap);
+
+                    //AutoCompleteTextView
+                    workersProfileMap.put("workers_profile_city_auto", workers_profile_city_auto.getText().toString());
+                    workersProfileMap.put("workers_profile_ilce_auto", workers_profile_ilce_auto.getText().toString());
+                    workersProfileMap.put("workers_profile_sgk_auto", workers_profile_sgk_auto.getText().toString());
+
+                    Toast.makeText(WorkersProfileActivity.this, "Everything is correct",
+                            Toast.LENGTH_SHORT).show();
+
+                    //FirebaseDatabase.getInstance("https://accountantparadise-4549.europe-west1.firebasedatabase.app/")
+                    //       .getReference().child("accountant-workers-data").setValue(workersProfileMap);
+                }
+            }
+
+
         });
 
 
@@ -141,5 +223,12 @@ public class WorkersProfileActivity extends AppCompatActivity {
         workers_profile_summation_data_tv.setText("Brüt ücret: " + salaryBeforeTaxesDouble +
                 ", Net ücret: " + salaryAfterTaxesDouble);
 
+    }
+
+    private boolean checkField(TextInputLayout inputLayout) {
+        if (inputLayout.getEditText().getText().toString().matches("")) {
+            return false;
+        } else
+            return true;
     }
 }

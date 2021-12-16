@@ -14,6 +14,7 @@
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_money_back.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_office_worker.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_pay_money.xml" value="0.25435897435897437" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_qr_code_scan.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_taxes_bill.xml" value="0.25435897435897437" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_update.xml" value="0.13802083333333334" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_user_persona.xml" value="0.25435897435897437" />
@@ -25,16 +26,30 @@
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_accountant_registration.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_accountant_registration2.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_bank_details.xml" value="0.264" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_bank_details_assets_add.xml" value="0.2421875" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_bank_details_assets_delete.xml" value="0.2421875" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_bank_details_assets_find.xml" value="0.2421875" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_bank_details_assets_update.xml" value="0.2421875" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_bank_details_cash_add.xml" value="0.264" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_bank_details_cash_find.xml" value="0.4" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_bank_details_cheques_find.xml" value="0.2421875" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_bank_details_cheques_update.xml" value="0.2421875" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_bank_details_order_add.xml" value="0.2421875" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_bank_details_order_find.xml" value="0.2421875" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_company_profile_change_password.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_company_profile_edit_data.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_company_profile_image_select.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_depo_details.xml" value="0.264" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_enterprise_add.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_enterprise_profile.xml" value="0.2" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_entreprise_add.xml" value="0.4" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_esmm_details.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_fatura_irsaliye.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_fatura_manual.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_product_select_type.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_products_detail.xml" value="0.264" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_products_detail_add.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_starter_representative.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_tabs.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_workers_detail.xml" value="0.264" />
@@ -47,6 +62,7 @@
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/button_start_view.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/content_accountant_registration.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/dropdown_layout_item.xml" value="0.2421875" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/entreprise_add_context_menu.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_accountant_registration.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_additional_password.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_authentication_start.xml" value="0.264" />

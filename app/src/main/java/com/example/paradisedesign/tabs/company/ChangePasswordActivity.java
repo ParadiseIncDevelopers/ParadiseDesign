@@ -18,6 +18,8 @@ import android.widget.TextView;
 import com.example.paradisedesign.R;
 import com.google.android.material.textfield.TextInputLayout;
 
+import java.util.function.Supplier;
+
 
 public class ChangePasswordActivity extends AppCompatActivity {
 
@@ -34,6 +36,10 @@ public class ChangePasswordActivity extends AppCompatActivity {
         company_profile_current_password = findViewById(R.id.company_profile_current_password);
         company_profile_new_password_1 = findViewById(R.id.company_profile_new_password_1);
         company_profile_new_password_2 = findViewById(R.id.company_profile_new_password_2);
+
+        company_profile_change_password_submit = findViewById(R.id.company_profile_change_password_submit);
+
+
 
         company_profile_current_password.getEditText().addTextChangedListener(new TextWatcher() {
             @Override
@@ -89,6 +95,7 @@ public class ChangePasswordActivity extends AppCompatActivity {
         company_profile_change_password_submit.setOnClickListener(view1 -> {
 
         });
+
 
     }
 

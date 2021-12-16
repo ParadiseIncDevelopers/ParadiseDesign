@@ -10,7 +10,49 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ParadiseDesign">
         <activity
+            android:name=".tabs.bank.BankDetailsAssetsUpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.bank.BankDetailsAssetsFindActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.bank.BankDetailsAssetsDeleteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.bank.BankDetailsAssetsAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.bank.BankDetailsOrderFindActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.bank.BankDetailsOrderAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.bank.BankDetailsChequesUpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.bank.BankDetailsChequesFindActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.bank.BankDetailsChequesAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.bank.BankDetailsCashFindActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.bank.BankDetailsCashDeleteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.bank.BankDetailsCashAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.company.EnterpriseAddActivity"
+            android:exported="true" />
+        <activity
             android:name=".tabs.products.ProductSelectTypeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.products.ProductsDetailAddActivity"
             android:exported="true" />
         <activity
             android:name=".tabs.workers.WorkersProfileActivity"

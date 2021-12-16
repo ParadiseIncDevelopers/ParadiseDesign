@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Intent intent = new Intent(this, com.example.paradisedesign.tabs.workers.WorkersProfileActivity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, com.example.paradisedesign.tabs.bank.BankDetailsCashAddActivity.class);
+        startActivity(intent);
 
 
     }
