@@ -11,9 +11,6 @@ import com.example.paradisedesign.R;
 
 public class WorkersDetailActivity extends AppCompatActivity {
 
-    private TextView companyName, taxNumber, mersis;
-
-    // New elements
     private ImageView workers_detail_image_profile;
 
     private TextView workers_detail_fullname_field, workers_detail_tc_number_field, workers_detail_salary_field,
@@ -33,11 +30,6 @@ public class WorkersDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_workers_detail);
 
-
-        // Heading elements
-        companyName = findViewById(R.id.workers_details_name_of_company);
-        taxNumber = findViewById(R.id.workers_details_tax_number);
-        mersis = findViewById(R.id.workers_details_mersis_no);
 
         // New elements
         workers_detail_image_profile = findViewById(R.id.workers_detail_image_profile);
