@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp">
+
+    <ImageView android:id="@+id/bank_details_cash_find_recycler_image"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_taxes_bill"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:text="Kasanın adı"
+        android:layout_marginStart="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/bank_details_cash_find_recycler_image"
+        app:layout_constraintTop_toTopOf="@id/bank_details_cash_find_recycler_image"/>
+
+    <TextView
+        android:text="Kasada ne kadar oldu"
+        android:layout_marginStart="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/bank_details_cash_find_recycler_image"
+        app:layout_constraintBottom_toBottomOf="@id/bank_details_cash_find_recycler_image"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

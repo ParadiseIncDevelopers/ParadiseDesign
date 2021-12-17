@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.paradisedesign.R;
@@ -12,9 +13,20 @@ public class WorkersDetailActivity extends AppCompatActivity {
 
     private TextView companyName, taxNumber, mersis;
 
-    private Button add, find, delete, update;
+    // New elements
+    private ImageView workers_detail_image_profile;
 
-    private TextView personName, positionOfWorker, age, salary;
+    private TextView workers_detail_fullname_field, workers_detail_tc_number_field, workers_detail_salary_field,
+            workers_detail_mobile_phone_label, workers_detail_mobile_description, workers_detail_date_of_enter,
+            workers_detail_date_of_enter_description, workers_detail_age_title, workers_detail_age_label_field,
+            workers_detail_city_title, workers_detail_city_label_field, workers_detail_district_title,
+            workers_detail_district_label_field, workers_detail_address_title,
+            workers_detail_addres_label_field, worekrs_detail_mezuniyet_title, worekrs_detail_mezuniyet_label_field,
+            workers_detail_mezuniyet_yili_title, workers_detail_mezuniyet_yili_label_field,
+            workers_detail_sgk_title, workers_detail_sgk_label_field, workers_detail_ssk_title,
+            workers_detail_ssk_label_field;
+
+    private Button workers_detail_delete_data_button, workers_detail_update_data_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,17 +39,46 @@ public class WorkersDetailActivity extends AppCompatActivity {
         taxNumber = findViewById(R.id.workers_details_tax_number);
         mersis = findViewById(R.id.workers_details_mersis_no);
 
+        // New elements
+        workers_detail_image_profile = findViewById(R.id.workers_detail_image_profile);
 
-        add =  findViewById(R.id.workers_details_add_button);
-        find = findViewById(R.id.workers_details_find_button);
-        delete = findViewById(R.id.workers_details_delete_button);
-        update = findViewById(R.id.workers_details_update_button);
+        workers_detail_fullname_field = findViewById(R.id.workers_detail_fullname_field);
+        workers_detail_tc_number_field = findViewById(R.id.workers_detail_tc_number_field);
+        workers_detail_salary_field = findViewById(R.id.workers_detail_salary_field);
+        workers_detail_mobile_phone_label = findViewById(R.id.workers_detail_mobile_phone_label);
+        workers_detail_mobile_description = findViewById(R.id.workers_detail_mobile_description);
+        workers_detail_date_of_enter = findViewById(R.id.workers_detail_date_of_enter);
+        workers_detail_date_of_enter_description = findViewById(R.id.workers_detail_date_of_enter_description);
+        workers_detail_age_title = findViewById(R.id.workers_detail_age_title);
+        workers_detail_age_label_field = findViewById(R.id.workers_detail_age_label_field);
+        workers_detail_city_title = findViewById(R.id.workers_detail_city_title);
+        workers_detail_city_label_field = findViewById(R.id.workers_detail_city_label_field);
+        workers_detail_district_title = findViewById(R.id.workers_detail_district_title);
+        workers_detail_district_label_field = findViewById(R.id.workers_detail_district_label_field);
+        workers_detail_address_title = findViewById(R.id.workers_detail_address_title);
+        workers_detail_addres_label_field = findViewById(R.id.workers_detail_addres_label_field);
+        worekrs_detail_mezuniyet_title = findViewById(R.id.worekrs_detail_mezuniyet_title);
+        worekrs_detail_mezuniyet_label_field = findViewById(R.id.worekrs_detail_mezuniyet_label_field);
+        workers_detail_mezuniyet_yili_title = findViewById(R.id.workers_detail_mezuniyet_yili_title);
+        workers_detail_mezuniyet_yili_label_field = findViewById(R.id.workers_detail_mezuniyet_yili_label_field);
+        workers_detail_sgk_title = findViewById(R.id.workers_detail_sgk_title);
+        workers_detail_sgk_label_field = findViewById(R.id.workers_detail_sgk_label_field);
+        workers_detail_ssk_title = findViewById(R.id.workers_detail_ssk_title);
+        workers_detail_ssk_label_field = findViewById(R.id.workers_detail_ssk_label_field);
 
 
-        // Elements below the buttons. Placeholders for the every bill
-        personName = findViewById(R.id.workers_details_name_of_person);
-        positionOfWorker = findViewById(R.id.workers_details_position_of_worker);
-        age = findViewById(R.id.workers_details_age);
-        salary = findViewById(R.id.workers_details_salary);
+        workers_detail_delete_data_button = findViewById(R.id.workers_detail_delete_data_button);
+        workers_detail_update_data_button = findViewById(R.id.workers_detail_update_data_button);
+
+        workers_detail_delete_data_button.setOnClickListener(view -> {
+
+        });
+
+        workers_detail_update_data_button.setOnClickListener(view -> {
+
+        });
+
+
+
     }
 }

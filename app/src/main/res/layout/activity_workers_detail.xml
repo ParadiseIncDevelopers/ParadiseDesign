@@ -1,194 +1,566 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".tabs.workers.WorkersDetailActivity">
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="200dp">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="?attr/colorSecondary">
-
-            <ImageView
-                android:id="@+id/workers_details_image_company"
-                android:layout_width="90dp"
-                android:layout_height="90dp"
-                android:layout_margin="16dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_workers"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white" />
-
-            <TextView
-                android:id="@+id/workers_details_name_of_company"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:text="Şirket adı"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
-                android:textColor="@color/white"
-                app:layout_constraintStart_toEndOf="@id/workers_details_image_company"
-                app:layout_constraintTop_toTopOf="@id/workers_details_image_company" />
-
-            <TextView
-                android:id="@+id/workers_details_tax_number"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:text="Vergi numarası"
-                android:layout_marginTop="4dp"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
-                android:textColor="@color/white"
-                app:layout_constraintStart_toEndOf="@id/workers_details_image_company"
-                app:layout_constraintTop_toTopOf="@id/workers_details_image_company"
-                app:layout_constraintBottom_toBottomOf="@id/workers_details_image_company"/>
-
-            <TextView
-                android:id="@+id/workers_details_mersis_no"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:text="Mersis"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
-                android:textColor="@color/white"
-                app:layout_constraintBottom_toBottomOf="@id/workers_details_image_company"
-                app:layout_constraintStart_toEndOf="@id/workers_details_image_company" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </androidx.cardview.widget.CardView>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/view_line">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/workers_details_add_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="12dp"
-            android:text="Add"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            android:layout_margin="2dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
 
-        <Button
-            android:id="@+id/workers_details_find_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="12dp"
-            android:text="Find"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            android:layout_margin="2dp"/>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/colorSecondary">
 
-        <Button
-            android:id="@+id/workers_details_delete_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="12dp"
-            android:text="Delete"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            android:layout_margin="2dp"/>
+                <ImageView
+                    android:id="@+id/workers_details_image_company"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_margin="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_workers"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white" />
 
-        <Button
-            android:id="@+id/workers_details_update_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="12dp"
-            android:text="Update"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            android:layout_margin="2dp"
+                <TextView
+                    android:id="@+id/workers_details_name_of_company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Şirket adı"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toEndOf="@id/workers_details_image_company"
+                    app:layout_constraintTop_toTopOf="@id/workers_details_image_company" />
+
+                <TextView
+                    android:id="@+id/workers_details_tax_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Vergi numarası"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@id/workers_details_image_company"
+                    app:layout_constraintStart_toEndOf="@id/workers_details_image_company"
+                    app:layout_constraintTop_toTopOf="@id/workers_details_image_company" />
+
+                <TextView
+                    android:id="@+id/workers_details_mersis_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Mersis"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@id/workers_details_image_company"
+                    app:layout_constraintStart_toEndOf="@id/workers_details_image_company" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
             />
 
-    </LinearLayout>
-
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="120dp">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="?attr/colorSecondary">
+            android:layout_height="300dp"
+            android:background="#5c82a6"
+            android:padding="20dp">
 
-            <ImageView
-                android:id="@+id/workers_details_image"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_margin="16dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_user_persona"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/workers_detail_image_profile_card_view"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                app:cardCornerRadius="50dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp"
+                >
 
-            <TextView
-                android:id="@+id/workers_details_name_of_person"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:text="Ad Soyad"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
-                android:textColor="@color/white"
-                android:layout_marginTop="12dp"
-                app:layout_constraintStart_toEndOf="@id/workers_details_image"
-                app:layout_constraintTop_toTopOf="parent" />
+                <ImageView
+                    android:id="@+id/workers_detail_image_profile"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_user_persona" />
+
+            </androidx.cardview.widget.CardView>
 
             <TextView
-                android:id="@+id/workers_details_position_of_worker"
+                android:id="@+id/workers_detail_fullname_field"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="4dp"
-                android:text="Pozisyon"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
-                android:textColor="@color/white"
-                app:layout_constraintStart_toEndOf="@id/workers_details_image"
-                app:layout_constraintTop_toBottomOf="@id/workers_details_name_of_person" />
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/workers_detail_image_profile_card_view"
+                android:fontFamily="@font/roboto_regular"
+                android:includeFontPadding="false"
+                android:text="@string/name_surname_example"
+                android:textColor="#000"
+                android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/workers_details_age"
+                android:id="@+id/workers_detail_tc_number_field"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:text="Yaş"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
-                android:textColor="@color/white"
-                app:layout_constraintTop_toBottomOf="@id/workers_details_position_of_worker"
-                app:layout_constraintStart_toEndOf="@id/workers_details_image" />
+                android:layout_below="@id/workers_detail_fullname_field"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/workers_detail_image_profile_card_view"
+                android:includeFontPadding="false"
+                android:text="TC numara"
+                android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/workers_details_salary"
+                android:id="@+id/workers_detail_salary_field"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
+                android:layout_below="@id/workers_detail_tc_number_field"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/workers_detail_image_profile_card_view"
+                android:includeFontPadding="false"
                 android:text="Maaş"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
-                android:textColor="@color/white"
-                app:layout_constraintTop_toBottomOf="@id/workers_details_age"
-                app:layout_constraintStart_toEndOf="@id/workers_details_image" />
+                android:textSize="14sp" />
+        </RelativeLayout>
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
-</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-100dp"
+            android:padding="20dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#5c82a6"
+                app:cardElevation="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ic_consultant" />
+
+                    <TextView
+                        android:id="@+id/workers_detail_mobile_phone_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/roboto_bold"
+                        android:includeFontPadding="false"
+                        android:text="Yazılımcı"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/workers_detail_mobile_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/workers_detail_mobile_phone_label"
+                        android:layout_centerHorizontal="true"
+                        android:includeFontPadding="false"
+                        android:text="Pozisyon"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#5c82a6"
+                app:cardElevation="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ic_id_card" />
+
+                    <TextView
+                        android:id="@+id/workers_detail_date_of_enter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/roboto_bold"
+                        android:includeFontPadding="false"
+                        android:text="01/01/2021"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/workers_detail_date_of_enter_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/workers_detail_date_of_enter"
+                        android:layout_centerHorizontal="true"
+                        android:includeFontPadding="false"
+                        android:text="İşe giriş tarihi"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/rectangular_borders"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/workers_detail_age_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_user_persona" />
+
+                <TextView
+                    android:id="@+id/workers_detail_age_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/workers_detail_age_icon"
+                    android:text="Yaş"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+                <TextView
+                    android:id="@+id/workers_detail_age_label_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/workers_detail_age_title"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/workers_detail_age_icon"
+                    android:text="24"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/rectangular_borders"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/workers_detail_city_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_city" />
+
+                <TextView
+                    android:id="@+id/workers_detail_city_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/workers_detail_city_icon"
+                    android:text="Şehir"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+                <TextView
+                    android:id="@+id/workers_detail_city_label_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/workers_detail_city_title"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/workers_detail_city_icon"
+                    android:text="Balıkesir"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/rectangular_borders"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/workers_detail_district_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_city" />
+
+                <TextView
+                    android:id="@+id/workers_detail_district_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/workers_detail_district_icon"
+                    android:text="Ilçe"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+                <TextView
+                    android:id="@+id/workers_detail_district_label_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/workers_detail_district_title"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/workers_detail_district_icon"
+                    android:text="Karesi"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/rectangular_borders"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/workers_detail_address_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_baseline_location_on_24" />
+
+                <TextView
+                    android:id="@+id/workers_detail_address_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/workers_detail_address_icon"
+                    android:text="Adres"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+                <TextView
+                    android:id="@+id/workers_detail_addres_label_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/workers_detail_address_title"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/workers_detail_address_icon"
+                    android:text="2. Sakarya Mahallesi, Uzun sokak, 42"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/rectangular_borders"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/worekrs_detail_mezuniyet_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_graduation_cap" />
+
+                <TextView
+                    android:id="@+id/worekrs_detail_mezuniyet_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/worekrs_detail_mezuniyet_icon"
+                    android:text="Mezuniyet"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+                <TextView
+                    android:id="@+id/worekrs_detail_mezuniyet_label_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/worekrs_detail_mezuniyet_title"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/worekrs_detail_mezuniyet_icon"
+                    android:text="Lisans"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+
+            </RelativeLayout>
+
+            <!-- New parts added here -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/rectangular_borders"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/workers_detail_mezuniyet_yili_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_graduation_cap" />
+
+                <TextView
+                    android:id="@+id/workers_detail_mezuniyet_yili_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/workers_detail_mezuniyet_yili_icon"
+                    android:text="Mezuniyet yılı"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+                <TextView
+                    android:id="@+id/workers_detail_mezuniyet_yili_label_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/workers_detail_mezuniyet_yili_title"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/workers_detail_mezuniyet_yili_icon"
+                    android:text="2020"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/rectangular_borders"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/workers_detail_sgk_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_pharmacy_medicine" />
+
+                <TextView
+                    android:id="@+id/workers_detail_sgk_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/workers_detail_sgk_icon"
+                    android:text="SGK veya Bağ-kur"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+                <TextView
+                    android:id="@+id/workers_detail_sgk_label_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/workers_detail_sgk_title"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/workers_detail_sgk_icon"
+                    android:text="Sompo sığorta"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/rectangular_borders"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/workers_detail_ssk_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_medical_history" />
+
+                <TextView
+                    android:id="@+id/workers_detail_ssk_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/workers_detail_ssk_icon"
+                    android:text="SSK"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+                <TextView
+                    android:id="@+id/workers_detail_ssk_label_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/workers_detail_ssk_title"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/workers_detail_ssk_icon"
+                    android:text="Yok"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/workers_detail_delete_data_button"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:textSize="16sp"
+                    android:layout_marginEnd="5dp"
+                    android:text="Sil" />
+
+                <Button
+                    android:id="@+id/workers_detail_update_data_button"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:layout_marginEnd="5dp"
+                    android:textSize="16sp"
+                    android:text="Bilgileri değiştir" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
