@@ -7,8 +7,6 @@
     android:orientation="vertical"
     tools:context=".tabs.fatura.FaturaDetailsActivity">
 
-    <!-- TODO: Update Representative Fragment -->
-
 
     <Button
         android:id="@+id/fatura_detail_efatura_button"
@@ -16,7 +14,7 @@
         android:layout_width="340dp"
         android:layout_height="70dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="72dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/rectangular_borders_colored"
         android:text="E-fatura"
@@ -26,8 +24,8 @@
         app:iconSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <Button
         android:id="@+id/fatura_detail_manual_button"

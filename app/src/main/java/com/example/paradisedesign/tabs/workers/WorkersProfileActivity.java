@@ -183,6 +183,8 @@ public class WorkersProfileActivity extends AppCompatActivity {
                         workersProfileMap.put("workers_profile_ssk_tesvik",
                                 Double.parseDouble(workers_profile_ssk_tesvik.getEditText()
                                 .getText().toString()));
+                    } else {
+                        workersProfileMap.put("workers_profile_ssk_tesvik", "");
                     }
 
 

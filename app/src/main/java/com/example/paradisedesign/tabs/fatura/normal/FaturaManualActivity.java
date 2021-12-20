@@ -1,4 +1,4 @@
-package com.example.paradisedesign.tabs.fatura;
+package com.example.paradisedesign.tabs.fatura.normal;
 
 import androidx.appcompat.app.AppCompatActivity;
 

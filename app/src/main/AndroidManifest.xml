@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ParadiseDesign">
         <activity
+            android:name=".tabs.fatura.irsaliye.FaturaIrsaliyeAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LicenceKeyActivity"
+            android:exported="true" />
+        <activity
             android:name=".tabs.bank.BankDetailsAssetsUpdateActivity"
             android:exported="true" />
         <activity
@@ -70,11 +76,11 @@
             android:exported="true"
             android:theme="@style/Theme.ParadiseDesign.NoActionBar" />
         <activity
-            android:name=".tabs.fatura.FaturaIrsaliyeActivity"
+            android:name=".tabs.fatura.irsaliye.FaturaIrsaliyeActivity"
             android:exported="true"
             android:theme="@style/Theme.ParadiseDesign.NoActionBar" />
         <activity
-            android:name=".tabs.fatura.FaturaManualActivity"
+            android:name=".tabs.fatura.normal.FaturaManualActivity"
             android:exported="true"
             android:theme="@style/Theme.ParadiseDesign.NoActionBar" />
         <activity
