@@ -14,10 +14,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.fragment_tabs_products);
 
-        Intent intent = new Intent(this, com.example.paradisedesign.tabs.workers.WorkersDetailActivity.class);
-        startActivity(intent);
+//        Intent intent = new Intent(this, com.example.paradisedesign.tabs.workers.WorkersDetailActivity.class);
+//        startActivity(intent);
 
 
     }
