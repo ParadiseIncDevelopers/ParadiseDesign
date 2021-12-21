@@ -10,6 +10,7 @@
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_company_vergi_numarasi.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_confirm.xml" value="0.13802083333333334" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_cross_symbol.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_fatura_paper.xml" value="0.25435897435897437" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_find_icon.xml" value="0.13802083333333334" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_money_back.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_office_worker.xml" value="0.25833333333333336" />
@@ -71,6 +72,10 @@
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/dropdown_layout_item.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/entreprise_add_context_menu.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fatura_irsaliye_add_recycler.xml" value="0.536" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fatura_irsaliye_add_second_recycler.xml" value="0.536" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fatura_irsaliye_secon_recycler.xml" value="0.2421875" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fatura_irsaliye_second_recycler.xml" value="0.536" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fatura_normal_first_recycler.xml" value="0.536" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_accountant_registration.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_additional_password.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_authentication_start.xml" value="0.264" />
