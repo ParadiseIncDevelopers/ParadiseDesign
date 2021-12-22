@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tabs.fatura.irsaliye.IrsaliyeDetailsActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/colorSecondary">
+
+            <ImageView
+                android:id="@+id/fatura_irsaliye_details_image_company"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_apartment"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/fatura_irsaliye_details_name_of_company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Şirket adı"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toEndOf="@id/fatura_irsaliye_details_image_company"
+                app:layout_constraintTop_toTopOf="@id/fatura_irsaliye_details_image_company" />
+
+            <TextView
+                android:id="@+id/fatura_irsaliye_details_tax_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Vergi numarası"
+                android:layout_marginTop="4dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toEndOf="@id/fatura_irsaliye_details_image_company"
+                app:layout_constraintTop_toTopOf="@id/fatura_irsaliye_details_image_company"
+                app:layout_constraintBottom_toBottomOf="@id/fatura_irsaliye_details_image_company"/>
+
+            <TextView
+                android:id="@+id/fatura_irsaliye_details_mersis_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Mersis"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="@id/fatura_irsaliye_details_image_company"
+                app:layout_constraintStart_toEndOf="@id/fatura_irsaliye_details_image_company" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/fatura_detail_irsaliye_first_buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        >
+
+        <Button
+            android:id="@+id/fatura_irsaliye_details_first_layer_add_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Add"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:layout_margin="2dp"/>
+
+        <Button
+            android:id="@+id/fatura_irsaliye_details_first_layer_find_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Find"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:layout_margin="2dp"/>
+
+        <Button
+            android:id="@+id/fatura_irsaliye_details_first_layer_delete_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:layout_margin="2dp"/>
+
+        <Button
+            android:id="@+id/fatura_irsaliye_details_first_layer_update_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:layout_margin="2dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fatura_detail_irsaliye_second_buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/fatura_irsaliye_details_second_layer_add_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Add"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:layout_margin="2dp"/>
+
+        <Button
+            android:id="@+id/fatura_irsaliye_details_second_layer_find_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Find"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:layout_margin="2dp"/>
+
+        <Button
+            android:id="@+id/fatura_irsaliye_details_second_layer_delete_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:layout_margin="2dp"/>
+
+    </LinearLayout>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/colorSecondary">
+
+            <ImageView
+                android:id="@+id/fatura_irsaliye_details_image"
+                android:layout_width="42dp"
+                android:layout_height="53dp"
+                android:layout_margin="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_fatura_paper"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/fatura_irsaliye_details_name_of_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Ürün adı"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                android:textColor="@color/white"
+                android:layout_marginTop="12dp"
+                app:layout_constraintStart_toEndOf="@id/fatura_irsaliye_details_image"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/fatura_irsaliye_details_number_of_products"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:text="Miktar"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toEndOf="@id/fatura_irsaliye_details_image"
+                app:layout_constraintTop_toBottomOf="@id/fatura_irsaliye_details_name_of_product" />
+
+            <TextView
+                android:id="@+id/fatura_irsaliye_details_kdv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="KDV"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+                android:textColor="@color/white"
+                app:layout_constraintTop_toBottomOf="@id/fatura_irsaliye_details_number_of_products"
+                app:layout_constraintStart_toEndOf="@id/fatura_irsaliye_details_image" />
+
+            <TextView
+                android:id="@+id/fatura_irsaliye_details_iskonto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Iskonto"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+                android:textColor="@color/white"
+                app:layout_constraintTop_toBottomOf="@id/fatura_irsaliye_details_kdv"
+                app:layout_constraintStart_toEndOf="@id/fatura_irsaliye_details_image" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
