@@ -17,7 +17,7 @@
             android:background="?attr/colorSecondary">
 
             <ImageView
-                android:id="@+id/fatura_irsaliye_details_image_company"
+                android:id="@+id/invoices_details_image_company"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_margin="16dp"
@@ -29,18 +29,18 @@
                 app:tint="@color/white" />
 
             <TextView
-                android:id="@+id/fatura_irsaliye_details_name_of_company"
+                android:id="@+id/invoices_details_company_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:text="Şirket adı"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
                 android:textColor="@color/white"
-                app:layout_constraintStart_toEndOf="@id/fatura_irsaliye_details_image_company"
-                app:layout_constraintTop_toTopOf="@id/fatura_irsaliye_details_image_company" />
+                app:layout_constraintStart_toEndOf="@id/invoices_details_image_company"
+                app:layout_constraintTop_toTopOf="@id/invoices_details_image_company" />
 
             <TextView
-                android:id="@+id/fatura_irsaliye_details_tax_number"
+                android:id="@+id/invoices_details_tax_number"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -48,20 +48,20 @@
                 android:layout_marginTop="4dp"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
                 android:textColor="@color/white"
-                app:layout_constraintStart_toEndOf="@id/fatura_irsaliye_details_image_company"
-                app:layout_constraintTop_toTopOf="@id/fatura_irsaliye_details_image_company"
-                app:layout_constraintBottom_toBottomOf="@id/fatura_irsaliye_details_image_company"/>
+                app:layout_constraintStart_toEndOf="@id/invoices_details_image_company"
+                app:layout_constraintTop_toTopOf="@id/invoices_details_image_company"
+                app:layout_constraintBottom_toBottomOf="@id/invoices_details_image_company"/>
 
             <TextView
-                android:id="@+id/fatura_irsaliye_details_mersis_no"
+                android:id="@+id/invoices_details_mersis_no"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:text="Mersis"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
                 android:textColor="@color/white"
-                app:layout_constraintBottom_toBottomOf="@id/fatura_irsaliye_details_image_company"
-                app:layout_constraintStart_toEndOf="@id/fatura_irsaliye_details_image_company" />
+                app:layout_constraintBottom_toBottomOf="@id/invoices_details_image_company"
+                app:layout_constraintStart_toEndOf="@id/invoices_details_image_company" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -78,7 +78,7 @@
         >
 
         <Button
-            android:id="@+id/fatura_irsaliye_details_first_layer_add_button"
+            android:id="@+id/e_invoice_add_button"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -89,7 +89,7 @@
             android:layout_margin="2dp"/>
 
         <Button
-            android:id="@+id/fatura_irsaliye_details_first_layer_find_button"
+            android:id="@+id/e_dispatch_add_button"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
             android:layout_margin="2dp"/>
 
         <Button
-            android:id="@+id/fatura_irsaliye_details_first_layer_delete_button"
+            android:id="@+id/invoice_add_button"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -111,7 +111,7 @@
             android:layout_margin="2dp"/>
 
         <Button
-            android:id="@+id/fatura_irsaliye_details_first_layer_update_button"
+            android:id="@+id/dispatch_add_button"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -132,7 +132,7 @@
         android:layout_marginBottom="16dp">
 
         <Button
-            android:id="@+id/fatura_irsaliye_details_second_layer_add_button"
+            android:id="@+id/all_invoices_print_button"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -143,23 +143,12 @@
             android:layout_margin="2dp"/>
 
         <Button
-            android:id="@+id/fatura_irsaliye_details_second_layer_find_button"
+            android:id="@+id/all_invoices_see_button"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:padding="12dp"
             android:text="Find"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            android:layout_margin="2dp"/>
-
-        <Button
-            android:id="@+id/fatura_irsaliye_details_second_layer_delete_button"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:padding="12dp"
-            android:text="Delete"
             android:textAllCaps="false"
             android:textSize="14sp"
             android:layout_margin="2dp"/>
