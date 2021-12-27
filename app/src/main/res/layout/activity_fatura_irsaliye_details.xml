@@ -9,7 +9,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="200dp">
+        android:layout_height="wrap_content">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -33,7 +33,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Şirket adı"
+                android:text="@string/activity_fatura_irsaliye_details_company_name"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
                 android:textColor="@color/white"
                 app:layout_constraintStart_toEndOf="@id/invoices_details_image_company"
@@ -44,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Vergi numarası"
+                android:text="@string/activity_fatura_irsaliye_details_tax"
                 android:layout_marginTop="4dp"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
                 android:textColor="@color/white"
@@ -57,7 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Mersis"
+                android:text="@string/activity_fatura_irsaliye_details_centSys"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="@id/invoices_details_image_company"
@@ -73,7 +73,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="horizontal"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         android:layout_marginBottom="4dp"
         >
 
@@ -83,7 +83,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:padding="12dp"
-            android:text="Add"
+            android:text="@string/activity_fatura_irsaliye_details_add_button"
             android:textAllCaps="false"
             android:textSize="14sp"
             android:layout_margin="2dp"/>
@@ -94,7 +94,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:padding="12dp"
-            android:text="Find"
+            android:text="@string/activity_fatura_irsaliye_details_find_button"
             android:textAllCaps="false"
             android:textSize="14sp"
             android:layout_margin="2dp"/>
@@ -105,7 +105,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:padding="12dp"
-            android:text="Delete"
+            android:text="@string/activity_fatura_irsaliye_details_delete_button"
             android:textAllCaps="false"
             android:textSize="14sp"
             android:layout_margin="2dp"/>
@@ -116,7 +116,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:padding="12dp"
-            android:text="Update"
+            android:text="@string/activity_fatura_irsaliye_details_update_button"
             android:textAllCaps="false"
             android:textSize="14sp"
             android:layout_margin="2dp"
@@ -129,7 +129,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="horizontal"
-        android:layout_marginBottom="16dp">
+        android:layout_marginBottom="4dp">
 
         <Button
             android:id="@+id/all_invoices_print_button"
@@ -137,7 +137,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:padding="12dp"
-            android:text="Add"
+            android:text="@string/activity_fatura_irsaliye_details_add_button"
             android:textAllCaps="false"
             android:textSize="14sp"
             android:layout_margin="2dp"/>
@@ -148,7 +148,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:padding="12dp"
-            android:text="Find"
+            android:text="@string/activity_fatura_irsaliye_details_find_button"
             android:textAllCaps="false"
             android:textSize="14sp"
             android:layout_margin="2dp"/>
@@ -183,7 +183,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Ürün adı"
+                android:text="@string/activity_fatura_irsaliye_details_product_name"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
                 android:textColor="@color/white"
                 android:layout_marginTop="12dp"
@@ -196,7 +196,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="4dp"
-                android:text="Miktar"
+                android:text="@string/activity_fatura_irsaliye_details_product_quantity"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
                 android:textColor="@color/white"
                 app:layout_constraintStart_toEndOf="@id/fatura_irsaliye_details_image"
@@ -207,7 +207,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="KDV"
+                android:text="@string/activity_fatura_irsaliye_details_product_kdv"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
                 android:textColor="@color/white"
                 app:layout_constraintTop_toBottomOf="@id/fatura_irsaliye_details_number_of_products"
@@ -218,7 +218,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Iskonto"
+                android:text="@string/activity_fatura_irsaliye_details_product_discount"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
                 android:textColor="@color/white"
                 app:layout_constraintTop_toBottomOf="@id/fatura_irsaliye_details_kdv"

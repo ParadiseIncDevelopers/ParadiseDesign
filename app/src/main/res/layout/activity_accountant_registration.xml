@@ -140,7 +140,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="@string/password_entering"
+                android:hint="@string/accountant_registration_password"
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 

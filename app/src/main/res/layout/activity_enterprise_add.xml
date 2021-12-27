@@ -15,7 +15,7 @@
             android:id="@+id/company_enterprise_add_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bilgileri değiştir"
+            android:text="@string/activity_enterprise_add_title"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -39,7 +39,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Şirket adı"
+                android:hint="@string/activity_enterprise_add_company_name"
                 android:inputType="text"
                 />
 
@@ -64,7 +64,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Şirket e-postası"
+                android:hint="@string/activity_enterprise_add_company_email"
                 android:inputType="textEmailAddress"
                 />
         </com.google.android.material.textfield.TextInputLayout>
@@ -86,7 +86,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Şirket türü"
+                android:hint="@string/activity_enterprise_add_company_type"
                 android:inputType="text"
                 />
 
@@ -109,7 +109,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Şehir"
+                android:hint="@string/activity_enterprise_add_sehir"
                 android:inputType="text"
                 />
 
@@ -132,7 +132,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="İlçe"
+                android:hint="@string/activity_enterprise_add_ilce"
                 android:inputType="text"
                 />
 
@@ -155,7 +155,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Adres"
+                android:hint="@string/activity_enterprise_add_address"
                 android:inputType="text"
                 />
 
@@ -179,7 +179,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Vergi dairesi"
+                android:hint="@string/activity_enterprise_add_tax_administraition"
                 android:inputType="text"
                 />
         </com.google.android.material.textfield.TextInputLayout>
@@ -202,7 +202,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Vergi numarası"
+                android:hint="@string/activity_enterprise_add_tax_number"
                 android:inputType="number"
                 />
         </com.google.android.material.textfield.TextInputLayout>
@@ -225,7 +225,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Mersis numarası"
+                android:hint="@string/activity_enterprise_add_centSys"
                 android:inputType="number"
                 />
         </com.google.android.material.textfield.TextInputLayout>
@@ -248,7 +248,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Sicil numarası"
+                android:hint="@string/activity_enterprise_add_trade_registry_number"
                 android:inputType="number"
                 />
         </com.google.android.material.textfield.TextInputLayout>
@@ -271,7 +271,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Şifreyi girin"
+                android:hint="@string/activity_enterprise_add_password"
                 android:inputType="number"
                 />
         </com.google.android.material.textfield.TextInputLayout>
@@ -284,7 +284,7 @@
             android:layout_marginStart="4dp"
             android:layout_marginEnd="4dp"
             android:padding="12dp"
-            android:text="Gönder"
+            android:text="@string/activity_enterprise_add_submit"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"

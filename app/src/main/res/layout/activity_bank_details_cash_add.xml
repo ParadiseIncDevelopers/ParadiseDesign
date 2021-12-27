@@ -15,7 +15,7 @@
             android:id="@+id/bank_details_cash_add_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kasa bilgilerini girin"
+            android:text="@string/activity_bank_details_cash_add_title"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -40,7 +40,7 @@
                 android:id="@+id/bank_details_cash_add_name_of_product_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Kasa adı"
+                android:hint="@string/activity_bank_details_cash_add_cash"
                 android:inputType="text" />
 
 
@@ -64,7 +64,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Kasa numarası"
+                android:hint="@string/activity_bank_details_cash_add_cash_number"
                 android:inputType="number"
                 />
         </com.google.android.material.textfield.TextInputLayout>
@@ -85,7 +85,7 @@
                 android:id="@+id/bank_details_cash_add_kdv_auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Kasanın döviz türü"
+                android:hint="@string/activity_bank_details_cash_add_cash_exchange"
                 android:inputType="none"
                 />
 
@@ -96,7 +96,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:checked="true"
-            android:text="Limitli"
+            android:text="@string/activity_bank_details_cash_add_check"
 
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -121,7 +121,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Kasa limiti"
+                android:hint="@string/activity_bank_details_cash_add_cash_limit"
                 android:inputType="numberDecimal"
                 />
         </com.google.android.material.textfield.TextInputLayout>
@@ -135,7 +135,7 @@
             android:layout_marginEnd="4dp"
             android:layout_marginTop="14dp"
             android:padding="12dp"
-            android:text="Gönder"
+            android:text="@string/activity_bank_details_cash_add_submit"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"

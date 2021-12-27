@@ -60,7 +60,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_toRightOf="@id/workers_detail_image_profile_card_view"
                 android:includeFontPadding="false"
-                android:text="TC numara"
+                android:text="@string/activity_workers_detail_tc"
                 android:textSize="14sp" />
 
             <TextView
@@ -71,7 +71,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_toRightOf="@id/workers_detail_image_profile_card_view"
                 android:includeFontPadding="false"
-                android:text="Maaş"
+                android:text="@string/activity_workers_detail_salary"
                 android:textSize="14sp" />
         </RelativeLayout>
 
@@ -117,7 +117,7 @@
                         android:layout_below="@id/workers_detail_mobile_phone_label"
                         android:layout_centerHorizontal="true"
                         android:includeFontPadding="false"
-                        android:text="Pozisyon"
+                        android:text="@string/activity_workers_detail_position"
                         android:textSize="20sp" />
 
                 </RelativeLayout>
@@ -160,7 +160,7 @@
                         android:layout_below="@id/workers_detail_date_of_enter"
                         android:layout_centerHorizontal="true"
                         android:includeFontPadding="false"
-                        android:text="İşe giriş tarihi"
+                        android:text="@string/activity_workers_detail_job_entering_date"
                         android:textSize="20sp" />
 
                 </RelativeLayout>
@@ -196,7 +196,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/workers_detail_age_icon"
-                    android:text="Yaş"
+                    android:text="@string/activity_workers_detail_age"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -232,7 +232,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/workers_detail_city_icon"
-                    android:text="Şehir"
+                    android:text="@string/activity_workers_detail_sehir"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -268,7 +268,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/workers_detail_district_icon"
-                    android:text="Ilçe"
+                    android:text="@string/activity_workers_detail_ilce"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -304,7 +304,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/workers_detail_address_icon"
-                    android:text="Adres"
+                    android:text="@string/activity_workers_detail_address"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -340,7 +340,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/worekrs_detail_mezuniyet_icon"
-                    android:text="Mezuniyet"
+                    android:text="@string/activity_workers_detail_education"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -378,7 +378,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/workers_detail_mezuniyet_yili_icon"
-                    android:text="Mezuniyet yılı"
+                    android:text="@string/activity_workers_detail_graduation_year"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -414,7 +414,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/workers_detail_sgk_icon"
-                    android:text="SGK veya Bağ-kur"
+                    android:text="@string/activity_workers_detail_sgk"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -450,7 +450,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/workers_detail_ssk_icon"
-                    android:text="SSK"
+                    android:text="@string/activity_workers_detail_ssk"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -481,7 +481,7 @@
                     android:textAllCaps="false"
                     android:textSize="16sp"
                     android:layout_marginEnd="5dp"
-                    android:text="Sil" />
+                    android:text="@string/activity_workers_detail_clear_button" />
 
                 <Button
                     android:id="@+id/workers_detail_update_data_button"
@@ -492,7 +492,7 @@
                     android:textAllCaps="false"
                     android:layout_marginEnd="5dp"
                     android:textSize="16sp"
-                    android:text="Bilgileri değiştir" />
+                    android:text="@string/activity_workers_detail_change_data_button" />
 
             </LinearLayout>
 

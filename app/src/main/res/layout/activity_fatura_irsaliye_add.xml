@@ -19,7 +19,7 @@
             android:id="@+id/fatura_irsaliye_add_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ürün listesi"
+            android:text="@string/activity_fatura_irsaliye_add_title"
             android:gravity="center"
             android:textColor="?attr/colorOnPrimary"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"

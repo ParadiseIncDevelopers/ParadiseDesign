@@ -12,7 +12,7 @@
         android:id="@+id/workers_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calisanlar"
+        android:text="@string/fragment_tabs_workers_title"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
         app:layout_constraintBottom_toBottomOf="@id/workers_icon"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="12dp"
-            android:text="Find"
+            android:text="@string/fragment_tabs_workers_find"
             android:textAllCaps="false"
             android:textSize="14sp"
             android:layout_margin="2dp"/>

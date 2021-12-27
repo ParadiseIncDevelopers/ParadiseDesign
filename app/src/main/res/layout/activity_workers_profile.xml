@@ -16,7 +16,7 @@
             android:id="@+id/workers_profile_title_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="İşçi profili"
+            android:text="@string/activity_workers_profile_title"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +41,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Ad ve soyad"
+                android:hint="@string/activity_workers_profile_full_name"
                 android:inputType="text" />
 
 
@@ -65,7 +65,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="TC kimlik no"
+                android:hint="@string/activity_workers_profile_tc"
                 android:inputType="number" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -85,7 +85,7 @@
                 android:id="@+id/workers_profile_city_auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Şehir"
+                android:hint="@string/activity_workers_profile_sehir"
                 android:inputType="none" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -106,7 +106,7 @@
                 android:id="@+id/workers_profile_ilce_auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="İlçe"
+                android:hint="@string/activity_workers_profile_ilce"
                 android:inputType="none" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -129,7 +129,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Adres"
+                android:hint="@string/activity_workers_profile_address"
                 android:inputType="text" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -151,7 +151,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Pozisyon"
+                android:hint="@string/activity_workers_profile_position"
                 android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -172,7 +172,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="İşe giriş tarihi"
+                android:hint="@string/activity_workers_profile_job_entering_date"
                 android:inputType="date" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -193,7 +193,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Mezuniyet"
+                android:hint="@string/activity_workers_profile_education"
                 android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -214,7 +214,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Mezuniyet yılı"
+                android:hint="@string/activity_workers_profile_graduation_year"
                 android:inputType="date" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -234,7 +234,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Doğum tarihi"
+                android:hint="@string/activity_workers_profile_date_of_born"
                 android:inputType="date" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -254,7 +254,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Meslek kodu"
+                android:hint="@string/activity_workers_profile_meslek_code"
                 android:inputType="number" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -275,7 +275,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Maaş"
+                android:hint="@string/activity_workers_profile_salary"
                 android:inputType="number" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -294,7 +294,7 @@
                 android:id="@+id/workers_profile_sgk_auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="SGK veya Bağ-Kur"
+                android:hint="@string/activity_workers_profile_sgk"
                 android:inputType="none" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -317,7 +317,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="(SSK) Teşvik"
+                android:hint="@string/activity_workers_profile_ssk"
                 android:inputType="number" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -341,7 +341,7 @@
             android:layout_marginTop="14dp"
             android:layout_marginEnd="4dp"
             android:padding="12dp"
-            android:text="Gönder"
+            android:text="@string/activity_workers_profile_submit"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"

@@ -32,7 +32,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="4dp"
                 android:layout_toLeftOf="@id/business_cancel_button"
-                android:text="Hesabi kapat"
+                android:text="@string/activity_enterprise_profile_close_account"
                 android:textSize="16sp" />
 
             <androidx.cardview.widget.CardView
@@ -62,7 +62,7 @@
                 android:layout_toRightOf="@id/company_image_profile_card_view"
                 android:fontFamily="@font/roboto_regular"
                 android:includeFontPadding="false"
-                android:text="Company name"
+                android:text="@string/activity_enterprise_profile_company_name"
                 android:textColor="#000"
                 android:textSize="20sp" />
 
@@ -120,7 +120,7 @@
                         android:layout_below="@id/company_tax_number"
                         android:layout_centerHorizontal="true"
                         android:includeFontPadding="false"
-                        android:text="Vergi numarasi"
+                        android:text="@string/activity_enterprise_profile_tax"
                         android:textSize="18sp" />
 
                 </RelativeLayout>
@@ -163,7 +163,7 @@
                         android:layout_below="@id/company_mersis_no"
                         android:layout_centerHorizontal="true"
                         android:includeFontPadding="false"
-                        android:text="Mersis numarasi"
+                        android:text="@string/activity_enterprise_profile_centSys"
                         android:textSize="18sp" />
 
                 </RelativeLayout>
@@ -199,7 +199,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/company_type_icon"
-                    android:text="Sirket turu"
+                    android:text="@string/activity_enterprise_profile_company_type"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -235,7 +235,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/company_city_icon"
-                    android:text="Sehir"
+                    android:text="@string/activity_enterprise_profile_sehir"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -271,7 +271,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/company_district_icon"
-                    android:text="Ilce"
+                    android:text="@string/activity_enterprise_profile_ilce"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -307,7 +307,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/company_tax_icon"
-                    android:text="Vergi dairesi"
+                    android:text="@string/activity_enterprise_profile_tax_administration"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -343,7 +343,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/company_address_icon"
-                    android:text="Adres"
+                    android:text="@string/activity_enterprise_profile_address"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -379,7 +379,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_toEndOf="@id/company_trade_register_icon"
-                    android:text="Ticaret sicil no"
+                    android:text="@string/activity_enterprise_profile_trade_registry_number"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -415,7 +415,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_toEndOf="@id/company_password_icon"
-                    android:text="Kurumsal şifre"
+                    android:text="@string/activity_enterprise_profile_company_password"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -438,7 +438,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Bilgileri değiştir"
+                android:text="@string/activity_enterprise_profile_change_data_button"
                 android:textAllCaps="false"
                 android:textSize="16sp" />
 
@@ -454,7 +454,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="5dp"
                     android:layout_weight="1"
-                    android:text="Parolayi degistir"
+                    android:text="@string/activity_enterprise_profile_password_change_button"
                     android:textAllCaps="false"
                     android:textSize="16sp" />
             </LinearLayout>

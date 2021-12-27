@@ -16,7 +16,7 @@
             android:id="@+id/company_profile_registration_title_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bilgileri değiştir"
+            android:text="@string/activity_profile_edit_data_title"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -41,9 +41,9 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Şirket adı"
+                android:hint="@string/activity_profile_edit_data_company_name"
                 android:inputType="text"
-                android:text="Text" />
+                 />
 
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -66,9 +66,9 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Şirket e-postası"
+                android:hint="@string/activity_profile_edit_data_company_email"
                 android:inputType="textEmailAddress"
-                android:text="Text" />
+                 />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -88,9 +88,9 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Şirket türü"
+                android:hint="@string/activity_profile_edit_data_company_type"
                 android:inputType="text"
-                android:text="Text" />
+                 />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -111,9 +111,9 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Şehir"
+                android:hint="@string/activity_profile_edit_data_sehir"
                 android:inputType="text"
-                android:text="Text" />
+                 />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -134,9 +134,9 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="İlçe"
+                android:hint="@string/activity_profile_edit_data_ilce"
                 android:inputType="text"
-                android:text="Text" />
+                 />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -157,9 +157,9 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Adres"
+                android:hint="@string/activity_profile_edit_data_address"
                 android:inputType="text"
-                android:text="Text" />
+                 />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -181,9 +181,9 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Vergi dairesi"
+                android:hint="@string/activity_profile_edit_data_tax"
                 android:inputType="text"
-                android:text="Text" />
+                 />
         </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -194,7 +194,7 @@
             android:layout_marginStart="4dp"
             android:layout_marginEnd="4dp"
             android:padding="12dp"
-            android:text="Gönder"
+            android:text="@string/activity_profile_edit_data_submit"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"

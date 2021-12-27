@@ -12,7 +12,7 @@
         android:id="@+id/ithalat_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ithalat ve ihracat"
+        android:text="@string/fragment_tabs_export_and_import_title"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
         app:layout_constraintBottom_toBottomOf="@id/ithalat_icon"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="12dp"
-            android:text="Add"
+            android:text="@string/fragment_tabs_export_and_import_add"
             android:textAllCaps="false"
             android:textSize="14sp"
             android:layout_margin="2dp"/>
@@ -63,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="12dp"
-            android:text="Find"
+            android:text="@string/fragment_tabs_export_and_import_find"
             android:textAllCaps="false"
             android:textSize="14sp"
             android:layout_margin="2dp"/>
@@ -73,7 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="12dp"
-            android:text="Delete"
+            android:text="@string/fragment_tabs_export_and_import_delete"
             android:textAllCaps="false"
             android:textSize="14sp"
             android:layout_margin="2dp"/>

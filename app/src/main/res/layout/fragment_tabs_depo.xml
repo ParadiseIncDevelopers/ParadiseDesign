@@ -11,7 +11,7 @@
     <TextView android:id="@+id/depo_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Depo takibi"
+        android:text="@string/fragment_tabs_depo_depo_takibi"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +54,7 @@
             android:id="@+id/depo_find_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Find"
+            android:text="@string/fragment_tabs_depo_find"
             android:textAllCaps="false"
             android:textSize="14sp"
             android:padding="12dp"
@@ -85,7 +85,7 @@
             android:imeOptions="actionSearch"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Ara"
+            android:hint="@string/fragment_tabs_depo_search"
             android:inputType="text"
             />
     </com.google.android.material.textfield.TextInputLayout>

@@ -18,7 +18,7 @@
             android:layout_marginBottom="8dp"
             android:gravity="center"
             android:layout_marginTop="64dp"
-            android:text="Lisans anahtarını girin"
+            android:text="@string/activity_licence_key_title"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -440,7 +440,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
             android:padding="12dp"
-            android:text="Gönder"
+            android:text="@string/activity_licence_key_submit"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"

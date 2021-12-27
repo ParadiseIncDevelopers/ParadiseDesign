@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_tabs_products);
+        setContentView(R.layout.activity_main);
 
 //        Intent intent = new Intent(this, com.example.paradisedesign.tabs.workers.WorkersDetailActivity.class);
 //        startActivity(intent);

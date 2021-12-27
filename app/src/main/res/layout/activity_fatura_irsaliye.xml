@@ -15,7 +15,7 @@
             android:id="@+id/fatura_detail_irsaliye_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bilgileri ekleyin"
+            android:text="@string/activty_fatura_details_irsaliye_title"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -40,7 +40,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Ürün adı"
+                android:hint="@string/activty_fatura_details_irsaliye_product_name"
                 android:inputType="text" />
 
 
@@ -64,7 +64,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Miktarı"
+                android:hint="@string/activty_fatura_details_irsaliye_quantity"
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -85,7 +85,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Ürünün fıyatı"
+                android:hint="@string/activty_fatura_details_irsaliye_product_price"
                 android:inputType="text" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -107,7 +107,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="KDV"
+                android:hint="@string/activty_fatura_details_irsaliye_kdv"
                 android:inputType="text"
                 />
 
@@ -130,7 +130,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Tutarı"
+                android:hint="@string/activty_fatura_details_irsaliye_total_price"
                 android:inputType="text" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -152,7 +152,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Teslimat adresi"
+                android:hint="@string/activty_fatura_details_irsaliye_delivery_address"
                 android:inputType="text" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -164,7 +164,7 @@
             android:layout_marginStart="4dp"
             android:layout_marginEnd="4dp"
             android:padding="12dp"
-            android:text="Gönder"
+            android:text="@string/activty_fatura_details_irsaliye_submit"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"

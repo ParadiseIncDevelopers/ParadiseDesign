@@ -27,11 +27,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/confirm_button"
-                android:layout_marginTop="10dp"
                 android:layout_marginStart="4dp"
-                android:textSize="16sp"
-                android:text="Hesap dogrulamasi" />
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/confirm_button"
+                android:text="@string/fragment_tabs_menu_confirm_account"
+                android:textSize="16sp" />
 
             <ImageView android:id="@+id/cancel_button"
                 android:layout_width="40dp"
@@ -42,11 +42,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toLeftOf="@id/cancel_button"
-                android:layout_marginEnd="4dp"
                 android:layout_marginTop="10dp"
-                android:textSize="16sp"
-                android:text="Hesabi kapat"/>
+                android:layout_marginEnd="4dp"
+                android:layout_toLeftOf="@id/cancel_button"
+                android:text="@string/fragment_tabs_menu_close_account"
+                android:textSize="16sp" />
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/image_profile_card_view"
@@ -135,7 +135,7 @@
                         android:layout_below="@id/mobile_phone_label"
                         android:layout_centerHorizontal="true"
                         android:includeFontPadding="false"
-                        android:text="Telefon no"
+                        android:text="@string/fragment_tabs_menu_telefon_number"
                         android:textSize="20sp" />
 
                 </RelativeLayout>
@@ -178,7 +178,7 @@
                         android:layout_below="@id/tc_kimlik_no"
                         android:layout_centerHorizontal="true"
                         android:includeFontPadding="false"
-                        android:text="TC kimlik no"
+                        android:text="@string/fragment_tabs_menu_tc_kimlik_number"
                         android:textSize="20sp" />
 
                 </RelativeLayout>
@@ -214,7 +214,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/age_icon"
-                    android:text="Yas"
+                    android:text="@string/fragment_tabs_menu_age"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -250,7 +250,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/website_icon"
-                    android:text="Kullanici websitesi"
+                    android:text="@string/fragment_tabs_menu_user_website"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -286,7 +286,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/city_icon"
-                    android:text="Sehir"
+                    android:text="@string/fragment_tabs_menu_sehir"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -322,7 +322,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/district_icon"
-                    android:text="Ilce"
+                    android:text="@string/fragment_tabs_menu_ilce"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -358,7 +358,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/address_icon"
-                    android:text="Adres"
+                    android:text="@string/fragment_tabs_menu_address"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -394,7 +394,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/taxes_icon"
-                    android:text="Vergi mudurlugu"
+                    android:text="@string/fragment_tabs_menu_tax_administration"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
                 <TextView
@@ -418,7 +418,7 @@
                 android:layout_marginTop="20dp"
                 android:textAllCaps="false"
                 android:textSize="16sp"
-                android:text="Bilgileri Degistir" />
+                android:text="@string/fragment_tabs_menu_change_data_button" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -434,7 +434,7 @@
                     android:textAllCaps="false"
                     android:textSize="16sp"
                     android:layout_marginEnd="5dp"
-                    android:text="Parolayi degistir" />
+                    android:text="@string/fragment_tabs_menu_change_password_button" />
 
                 <Button
                     android:id="@+id/stop_account"
@@ -445,7 +445,7 @@
                     android:textAllCaps="false"
                     android:layout_marginEnd="5dp"
                     android:textSize="16sp"
-                    android:text="Hesabi dondur" />
+                    android:text="@string/fragment_tabs_menu_stop_account_button" />
 
             </LinearLayout>
 

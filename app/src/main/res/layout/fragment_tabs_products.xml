@@ -12,7 +12,7 @@
         android:id="@+id/products_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Products and services"
+        android:text="@string/fragment_tabs_products_title"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
         app:layout_constraintBottom_toBottomOf="@id/products_icon"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="12dp"
-            android:text="Find"
+            android:text="@string/fragment_tabs_products_find"
             android:textAllCaps="false"
             android:textSize="14sp"
             android:layout_margin="2dp"/>
@@ -82,7 +82,7 @@
             android:imeOptions="actionSearch"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Ara"
+            android:hint="@string/fragment_tabs_products_search_input"
             android:inputType="text"
             />
 

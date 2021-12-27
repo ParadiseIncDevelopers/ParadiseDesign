@@ -14,27 +14,347 @@
     <string name="forgot_password">Forgot password</string>
 
 
-    <!-- Additional Password Values -->
-    <string name="additional_password_textview">Enter 4-digit password</string>
-    <string name="additional_password">4-digit password</string>
-    <string name="submit_pincode_button">Submit</string>
-
     <!-- Representative Fragment Values -->
-    <string name="muhasebeci_button">Muhasebeci</string>
-    <string name="bilanco_button">Bilanco defteri</string>
-    <string name="isletme_button">Isletme defteri</string>
-    <string name="basit_usul_button">Basit Usul defteri</string>
+    <string name="muhasebeci_button">Accountant</string>
+    <string name="bilanco_button">Big business</string>
+    <string name="isletme_button">Normal business</string>
+    <string name="basit_usul_button">Small business</string>
 
-    <!-- Accountant Registration Values -->
-    <string name="accountant_registration_title_text">Burada muhasebeci \nolarak kaydinizi yaptirin</string>
-    <string name="tc_kimlik_enter">TC Kimlik no</string>
+    <!-- Activity Accountant Registration -->
+    <string name="accountant_registration_title_text">Register as an \naccountant here</string>
+    <string name="tc_kimlik_enter">TC Identification number</string>
     <string name="name_enter">First name</string>
     <string name="surname_enter">Last name</string>
     <string name="phone_enter">Mobile number</string>
     <string name="secure_data">Secure the entered data</string>
     <string name="password_rules">Passwords must contain both uppercase and lowercase characters.
         Passwords must contain at least one number.</string>
-    <string name="title_activity_accountant_registration">Muhasebeci kaydı</string>
+    <string name="accountant_registration_password">Enter password</string>
+    <string name="title_activity_accountant_registration">Accountant registration</string>
+
+    <!-- Activity Bank Details -->
+    <string name="activity_bank_details_name">Company name</string>
+    <string name="activity_bank_details_tax">Tax number</string>
+    <string name="activity_bank_details_centSys">Central System</string>
+    <string name="activity_bank_details_cash">Cash</string>
+    <string name="activity_bank_details_cheques_received">Cheques received</string>
+    <string name="activity_bank_details_cheques_given">Cheques given and payment order</string>
+    <string name="activity_bank_details_liquid_assets">Other liquid assets</string>
+
+    <!-- Activity Bank Details Cash Add -->
+    <string name="activity_bank_details_cash_add_title">Enter the cash information</string>
+    <string name="activity_bank_details_cash_add_cash">Cash name</string>
+    <string name="activity_bank_details_cash_add_cash_number">Cash number</string>
+    <string name="activity_bank_details_cash_add_cash_exchange">Cash exchange type</string>
+    <string name="activity_bank_details_cash_add_check">Limited</string>
+    <string name="activity_bank_details_cash_add_cash_limit">Cash limit</string>
+    <string name="activity_bank_details_cash_add_submit">Submit</string>
+
+    <!-- Activity bank details cash find -->
+    <string name="activity_bank_details_cash_find_company_name">Company name</string>
+
+    <!-- Activity company profile change password -->
+    <string name="activty_company_profile_change_password_title_1">Enter current password</string>
+    <string name="activty_company_profile_change_password_title_1_password">Current password</string>
+    <string name="activty_company_profile_change_password_title_2">Enter new password</string>
+    <string name="activty_company_profile_change_password_title_2_password">New password</string>
+    <string name="activty_company_profile_change_password_title_3">Enter new password again</string>
+    <string name="activty_company_profile_change_password_title_3_password">Again</string>
+    <string name="activty_company_profile_change_password_submit">Submit</string>
+
+    <!-- Activity company profile edit data -->
+    <string name="activity_profile_edit_data_title">Change data</string>
+    <string name="activity_profile_edit_data_company_name">Company name</string>
+    <string name="activity_profile_edit_data_company_email">Company email</string>
+    <string name="activity_profile_edit_data_company_type">Company type</string>
+    <string name="activity_profile_edit_data_sehir">Province</string>
+    <string name="activity_profile_edit_data_ilce">District</string>
+    <string name="activity_profile_edit_data_address">Address</string>
+    <string name="activity_profile_edit_data_tax">Tax administration</string>
+    <string name="activity_profile_edit_data_submit">Submit</string>
+
+    <!-- Activity company profile image select -->
+    <string name="activty_company_profile_image_select_button">Upload photo</string>
+
+    <!-- Activity depo details -->
+    <string name="activity_depo_details_company_name">Company name</string>
+    <string name="activity_depo_details_tax">Tax number</string>
+    <string name="activity_depo_details_centSys">CentSys</string>
+    <string name="activity_depo_details_find_button">Find</string>
+    <string name="activity_depo_details_update_button">Update</string>
+    <string name="activity_depo_details_product_name">Product name</string>
+    <string name="activity_depo_details_product_quantity">Quantity</string>
+
+    <!-- activity enterprise add -->
+    <string name="activity_enterprise_add_title">Change information</string>
+    <string name="activity_enterprise_add_company_name">Company name</string>
+    <string name="activity_enterprise_add_company_email">Company email</string>
+    <string name="activity_enterprise_add_company_type">Company type</string>
+    <string name="activity_enterprise_add_sehir">Province</string>
+    <string name="activity_enterprise_add_ilce">District</string>
+    <string name="activity_enterprise_add_address">Address</string>
+    <string name="activity_enterprise_add_tax_administraition">Tax administration</string>
+    <string name="activity_enterprise_add_tax_number">Tax number</string>
+    <string name="activity_enterprise_add_centSys">CentSys number</string>
+    <string name="activity_enterprise_add_trade_registry_number">Trade registry number</string>
+    <string name="activity_enterprise_add_password">Enter password</string>
+    <string name="activity_enterprise_add_submit">Submit</string>
+
+    <!-- Activty enterprise profile -->
+    <string name="activity_enterprise_profile_close_account">Close account</string>
+    <string name="activity_enterprise_profile_company_name">Company name</string>
+    <string name="activity_enterprise_profile_tax">Tax number</string>
+    <string name="activity_enterprise_profile_centSys">CentSys number</string>
+    <string name="activity_enterprise_profile_company_type">Company type</string>
+    <string name="activity_enterprise_profile_sehir">Province</string>
+    <string name="activity_enterprise_profile_ilce">District</string>
+    <string name="activity_enterprise_profile_tax_administration">Tax administration</string>
+    <string name="activity_enterprise_profile_address">Address</string>
+    <string name="activity_enterprise_profile_trade_registry_number">Trade registry number</string>
+    <string name="activity_enterprise_profile_company_password">Enterprise password</string>
+    <string name="activity_enterprise_profile_change_data_button">Change information</string>
+    <string name="activity_enterprise_profile_password_change_button">Change password</string>
+
+    <!-- Activity Esmm Details -->
+    <string name="activity_esmm_details_company_name">Company name</string>
+    <string name="activity_esmm_details_profile_tax">Tax number</string>
+    <string name="activity_esmm_details_profile_centSys">CentSys number</string>
+    <string name="activity_esmm_details_find_button">Find</string>
+    <string name="activity_esmm_details_add_button">Add</string>
+
+    <!-- Activity fatura details -->
+    <string name="activity_fatura_details_eFatura">E-invoice</string>
+    <string name="activity_fatura_details_fatura">Invoice</string>
+    <string name="activity_fatura_details_eIrsaliye">E-dispatch</string>
+    <string name="activity_fatura_details_irsaliye">Dispatch</string>
+
+    <!-- Activity fatura irsaliye -->
+    <string name="activty_fatura_details_irsaliye_title">Add information</string>
+    <string name="activty_fatura_details_irsaliye_product_name">Product name</string>
+    <string name="activty_fatura_details_irsaliye_quantity">Quantity</string>
+    <string name="activty_fatura_details_irsaliye_product_price">Product price</string>
+    <string name="activty_fatura_details_irsaliye_kdv">VAT</string>
+    <string name="activty_fatura_details_irsaliye_total_price">Total</string>
+    <string name="activty_fatura_details_irsaliye_delivery_address">Delivery address</string>
+    <string name="activty_fatura_details_irsaliye_submit">Submit</string>
+
+    <!-- Activity fatura irsaliye -->
+    <string name="activity_fatura_irsaliye_add_title">List of products</string>
+
+    <!-- Activity fatura irsaliye details -->
+    <string name="activity_fatura_irsaliye_details_company_name">Company name</string>
+    <string name="activity_fatura_irsaliye_details_tax">Tax number</string>
+    <string name="activity_fatura_irsaliye_details_centSys">CentSys</string>
+    <string name="activity_fatura_irsaliye_details_add_button">Add</string>
+    <string name="activity_fatura_irsaliye_details_find_button">Find</string>
+    <string name="activity_fatura_irsaliye_details_delete_button">Delete</string>
+    <string name="activity_fatura_irsaliye_details_update_button">Update</string>
+    <string name="activity_fatura_irsaliye_details_product_name">Product name</string>
+    <string name="activity_fatura_irsaliye_details_product_quantity">Quantity</string>
+    <string name="activity_fatura_irsaliye_details_product_kdv">VAT</string>
+    <string name="activity_fatura_irsaliye_details_product_discount">Discount</string>
+
+    <!-- Activity fatura manual -->
+    <string name="activity_fatura_manual_title">Add information</string>
+    <string name="activity_fatura_manual_product_name">Product name</string>
+    <string name="activity_fatura_manual_product_quantity">Quantity</string>
+    <string name="activity_fatura_manual_product_price">Product price</string>
+    <string name="activity_fatura_manual_product_kdv">VAT</string>
+    <string name="activity_fatura_manual_total_price">Total</string>
+    <string name="activity_fatura_manual_submit">Submit</string>
+
+    <!-- Activity irsaliye address -->
+    <string name="activity_irsaliye_address_title">Enter delivery address</string>
+    <string name="activity_irsaliye_address_sehir">Province</string>
+    <string name="activity_irsaliye_address_ilce">District</string>
+    <string name="activity_irsaliye_address_address">Address</string>
+    <string name="activity_irsaliye_address_submit">Submit</string>
+
+    <!-- Activity licence key -->
+    <string name="activity_licence_key_title">Enter licence key</string>
+    <string name="activity_licence_key_submit">Submit</string>
+
+    <!-- Activity product select type -->
+    <string name="activity_product_select_type_trade">Commercial product</string>
+    <string name="activity_product_select_type_factory">Factory product</string>
+    <string name="activity_product_select_type_service">Service product</string>
+
+    <!-- Activity products detail '''' -->
+    <string name="activity_products_detail_company_name">Company name</string>
+    <string name="activity_products_detail_tax">Tax number</string>
+    <string name="activity_products_detail_centSys">CentSys</string>
+    <string name="activity_products_detail_add_button">Add</string>
+    <string name="activity_products_detail_find_button">Find</string>
+    <string name="activity_products_detail_delete_button">Delete</string>
+    <string name="activity_products_detail_update_button">Update</string>
+    <string name="activity_products_detail_product_name">Product name</string>
+    <string name="activity_products_detail_product_quantity">Quantity</string>
+    <string name="activity_products_detail_product_kdv">VAT</string>
+    <string name="activity_products_detail_product_discount">Discount</string>
+
+    <!-- Activity produts detail add -->
+    <string name="activity_products_detail_add_title">Enter product information</string>
+    <string name="activity_products_detail_add_product_name">Product name</string>
+    <string name="activity_products_detail_add_product_quantity">Quantity</string>
+    <string name="activity_products_detail_add_kdv">VAT</string>
+    <string name="activity_products_detail_add_discount">Discount</string>
+    <string name="activity_products_detail_add_price">Price</string>
+    <string name="activity_products_detail_add_submit">Submit</string>
+
+    <!-- Activity worker detail 15 -->
+    <string name="activity_workers_detail_tc">TC number</string>
+    <string name="activity_workers_detail_salary">Salary</string>
+    <string name="activity_workers_detail_position">Position</string>
+    <string name="activity_workers_detail_job_entering_date">Start date of work</string>
+    <string name="activity_workers_detail_age">Age</string>
+    <string name="activity_workers_detail_sehir">Province</string>
+    <string name="activity_workers_detail_ilce">District</string>
+    <string name="activity_workers_detail_address">Address</string>
+    <string name="activity_workers_detail_education">Graduation</string>
+    <string name="activity_workers_detail_graduation_year">Graduation year</string>
+    <string name="activity_workers_detail_sgk">SGK or Bağ-kur</string>
+    <string name="activity_workers_detail_ssk">SSK</string>
+    <string name="activity_workers_detail_clear_button">Delete</string>
+    <string name="activity_workers_detail_change_data_button">Change information</string>
+
+    <!-- activity workers profile -->
+    <string name="activity_workers_profile_title">Workers profile</string>
+    <string name="activity_workers_profile_full_name">Full name</string>
+    <string name="activity_workers_profile_tc">TC number</string>
+    <string name="activity_workers_profile_sehir">Province</string>
+    <string name="activity_workers_profile_ilce">District</string>
+    <string name="activity_workers_profile_address">Address</string>
+    <string name="activity_workers_profile_salary">Salary</string>
+    <string name="activity_workers_profile_position">Position</string>
+    <string name="activity_workers_profile_job_entering_date">Start date of work</string>
+    <string name="activity_workers_profile_date_of_born">Date of birth</string>
+    <string name="activity_workers_profile_meslek_code">Job code</string>
+    <string name="activity_workers_profile_education">Graduation</string>
+    <string name="activity_workers_profile_graduation_year">Graduation year</string>
+    <string name="activity_workers_profile_sgk">SGK or Bağ-kur</string>
+    <string name="activity_workers_profile_ssk">SSK (Teşvik)</string>
+    <string name="activity_workers_profile_submit">Submit</string>
+
+    <!-- Bank details cash find recycler -->
+    <string name="bank_details_cash_find_recycler_title">Cash name</string>
+    <string name="bank_details_cash_find_recycler_amount_of_money">Kasada ne kadar oldu</string>
+
+    <!-- Enterprise add context menu -->
+    <string name="enterprise_add_context_menu_manual">Manual</string>
+    <string name="enterprise_add_context_menu_qr_code">QR-code</string>
+
+    <!-- Fatura irsaliye add recycler -->
+    <string name="fatura_irsaliye_add_recycler_iskonto">Discount</string>
+    <string name="fatura_irsaliye_add_recycler_product_name">Product name</string>
+
+    <!-- Fatura irsaliye add second recycler -->
+    <string name="fatura_irsaliye_add_second_recycler_id">Id</string>
+    <string name="fatura_irsaliye_add_second_recycler_product_name">Product name</string>
+    <string name="fatura_irsaliye_add_second_recycler_tarih">Date</string>
+    <string name="fatura_irsaliye_add_second_recycler_toplam_fiyat">Total price</string>
+    <string name="fatura_irsaliye_add_second_recycler_address">Address</string>
+
+    <!-- Fatura normal first recycler -->
+    <string name="fatura_normal_first_recycler_iskonto">Discount</string>
+    <string name="fatura_normal_first_recycler_product_name">Product name</string>
+
+    <!-- Fatura normal second recycler -->
+    <string name="fatura_normal_second_recycler_id">Id</string>
+    <string name="fatura_normal_second_recycler_product_name">Product name</string>
+    <string name="fatura_normal_second_recycler_tarih">Date</string>
+    <string name="fatura_normal_second_recycler_toplam_fiyat">Total price</string>
+
+    <!-- Fragment depo details find -->
+    <string name="fragment_depo_details_find_title">Enter the data to find the product</string>
+    <string name="fragment_depo_details_find_product_name">Product name</string>
+    <string name="fragment_depo_details_find_find_button">Find</string>
+
+    <!-- Fragment depo details update -->
+    <string name="fragment_depo_details_update_title">Enter product information</string>
+    <string name="fragment_depo_details_update_product_name">Product name</string>
+    <string name="fragment_depo_details_update_quantity">Quantity</string>
+    <string name="fragment_depo_details_update_submit">Submit</string>
+
+    <!-- Fragment products detail delete -->
+    <string name="fragment_products_detail_delete_title">Enter the data to delete the product</string>
+    <string name="fragment_products_detail_delete_product_name">Product name</string>
+    <string name="fragment_products_detail_delete_delete_button">Delete</string>
+
+    <!-- Fragment products detail find -->
+    <string name="fragment_products_detail_find_title">Enter the data to find the product</string>
+    <string name="fragment_products_detail_find_product_name">Product name</string>
+    <string name="fragment_products_detail_find_delete_button">Find</string>
+
+    <!-- Fragment tabs bank -->
+    <string name="fragment_tabs_bank_title">Cash/Bank operations</string>
+    <string name="fragment_tabs_bank_find_button">Find</string>
+    <string name="fragment_tabs_bank_search">Search</string>
+
+    <!-- Fragment tabs companies -->
+    <string name="fragment_tabs_companies_title">Companies</string>
+    <string name="fragment_tabs_companies_add">Add</string>
+    <string name="fragment_tabs_companies_find">Find</string>
+    <string name="fragment_tabs_companies_delete">Delete</string>
+    <string name="fragment_tabs_companies_update">Update</string>
+
+    <!-- Fragment tabs depo -->
+    <string name="fragment_tabs_depo_depo_takibi">Warehouse tracking</string>
+    <string name="fragment_tabs_depo_find">Find</string>
+    <string name="fragment_tabs_depo_search">Search</string>
+
+    <!-- Fragment tabs esmm -->
+    <string name="fragment_tabs_esmm_title">Accountant fee</string>
+    <string name="fragment_tabs_esmm_find">Find</string>
+    <string name="fragment_tabs_esmm_search">Search</string>
+
+    <!-- Fragment tabs fatura -->
+    <string name="fragment_tabs_fatura_title">Invoice operations</string>
+    <string name="fragment_tabs_fatura_add">Add</string>
+    <string name="fragment_tabs_fatura_find">Find</string>
+
+    <!-- Fragment tabs ithalat -->
+    <string name="fragment_tabs_export_and_import_title">Export and import</string>
+    <string name="fragment_tabs_export_and_import_add">Add</string>
+    <string name="fragment_tabs_export_and_import_find">Find</string>
+    <string name="fragment_tabs_export_and_import_delete">Delete</string>
+
+    <!-- Fragment tabs menkul -->
+    <string name="fragment_tabs_menkul_title">Stocks</string>
+    <string name="fragment_tabs_menkul_add">Add</string>
+    <string name="fragment_tabs_menkul_find">Find</string>
+    <string name="fragment_tabs_menkul_delete">Delete</string>
+    <string name="fragment_tabs_menkul_update">Update</string>
+
+    <!-- Fragment tabs menu -->
+    <string name="fragment_tabs_menu_confirm_account">Account verification</string>
+    <string name="fragment_tabs_menu_close_account">Close account</string>
+    <string name="fragment_tabs_menu_telefon_number">Telephone number</string>
+    <string name="fragment_tabs_menu_tc_kimlik_number">TC Identification number</string>
+    <string name="fragment_tabs_menu_age">Age</string>
+    <string name="fragment_tabs_menu_user_website">User website</string>
+    <string name="fragment_tabs_menu_sehir">Province</string>
+    <string name="fragment_tabs_menu_ilce">District</string>
+    <string name="fragment_tabs_menu_address">Address</string>
+    <string name="fragment_tabs_menu_tax_administration">Tax administration</string>
+    <string name="fragment_tabs_menu_change_data_button">Change information</string>
+    <string name="fragment_tabs_menu_change_password_button">Change password</string>
+    <string name="fragment_tabs_menu_stop_account_button">Freeze account</string>
+
+    <!-- Fragment tabs mizan -->
+    <string name="fragment_tabs_mizan_title">Balance</string>
+    <string name="fragment_tabs_mizan_find_button">Find</string>
+
+    <!-- Fragment tabs products -->
+    <string name="fragment_tabs_products_title">Products and services</string>
+    <string name="fragment_tabs_products_find">Find</string>
+    <string name="fragment_tabs_products_search_input">Search</string>
+
+    <!-- Fragment tabs workers -->
+    <string name="fragment_tabs_workers_title">Workers</string>
+    <string name="fragment_tabs_workers_find">Find</string>
+
+
+
 
     <!-- Normal Business Taxation Registration Values -->
     <string name="business_taxation_registration_title">Normal business taxation</string>
@@ -46,19 +366,20 @@
 
     <!-- TabLayout String values -->
     <string name="tab1_text">Menu</string>
-    <string name="tab2_text">Şirketlerim</string>
-    <string name="tab3_text">E-smm makbuzu</string>
-    <string name="tab4_text">Depo</string>
-    <string name="tab5_text">Çalışanlar</string>
-    <string name="tab6_text">Ürünlerim ve hizmetlerim</string>
-    <string name="tab7_text">Fatura işlemleri</string>
-    <string name="tab8_text">Mizan defteri</string>
-    <string name="tab9_text">Kasa/Banka işlemleri</string>
-    <string name="tab10_text">Ithalat ve ihracat</string>
-    <string name="tab11_text">Menkul kıymetler</string>
+    <string name="tab2_text">Companies</string>
+    <string name="tab3_text">Accountant fee</string>
+    <string name="tab4_text">Warehouse</string>
+    <string name="tab5_text">Workers</string>
+    <string name="tab6_text">Products and services</string>
+    <string name="tab7_text">Invoice operations</string>
+    <string name="tab8_text">Mizan</string>
+    <string name="tab9_text">Cash/Bank operations</string>
+    <string name="tab10_text">Export and Import</string>
+    <string name="tab11_text">Stock operations</string>
 
     <!-- Menu Fragment | Profile fragment values -->
     <string name="name_surname_example">Yusuf Salim Ozbek</string>
+
 
     <!-- BankDetailsActivity values -->
     <string-array name="popup_menu_options">

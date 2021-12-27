@@ -15,7 +15,7 @@
             android:id="@+id/fatura_irsaliye_address_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Teslimat adresi ekleyin"
+            android:text="@string/activity_irsaliye_address_title"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +37,7 @@
                 android:id="@+id/fatura_irsaliye_address_sehir_auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Şehir"
+                android:hint="@string/activity_irsaliye_address_sehir"
                 android:inputType="none" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -58,7 +58,7 @@
                 android:id="@+id/fatura_irsaliye_address_ilce_auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="İlçe"
+                android:hint="@string/activity_irsaliye_address_ilce"
                 android:inputType="none" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -81,7 +81,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Adres"
+                android:hint="@string/activity_irsaliye_address_address"
                 android:inputType="text" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -93,7 +93,7 @@
             android:layout_marginStart="4dp"
             android:layout_marginEnd="4dp"
             android:padding="12dp"
-            android:text="Gönder"
+            android:text="@string/activity_irsaliye_address_submit"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"

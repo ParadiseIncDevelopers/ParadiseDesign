@@ -9,7 +9,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="200dp">
+        android:layout_height="wrap_content">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -33,7 +33,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Şirket adı"
+                android:text="@string/activity_bank_details_name"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
                 android:textColor="@color/white"
                 app:layout_constraintStart_toEndOf="@id/bank_details_image_company"
@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="4dp"
-                android:text="Vergi numarası"
+                android:text="@string/activity_bank_details_tax"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="@id/bank_details_image_company"
@@ -57,7 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Mersis"
+                android:text="@string/activity_bank_details_centSys"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="@id/bank_details_image_company"
@@ -88,7 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="Cash"
+                android:hint="@string/activity_bank_details_cash"
 
                 android:inputType="none" />
 
@@ -110,7 +110,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="Cheques received"
+                android:hint="@string/activity_bank_details_cheques_received"
                 android:inputType="none" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -130,7 +130,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="Cheques given and payment order"
+                android:hint="@string/activity_bank_details_cheques_given"
                 android:inputType="none" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -150,7 +150,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="Other liquid assets"
+                android:hint="@string/activity_bank_details_liquid_assets"
                 android:inputType="none" />
 
         </com.google.android.material.textfield.TextInputLayout>

@@ -1,0 +1,393 @@
+<resources>
+    <string name="app_name">ParadiseDesign</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Authentication Fragment Values -->
+    <string name="email_entering">Login or Email</string>
+    <string name="password_entering">Şifre girin</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome_text">Welcome to … </string>
+    <string name="checkbox_remember_text">Remember me</string>
+    <string name="forgot_password">Forgot password</string>
+
+
+    <!-- Representative Fragment Values -->
+    <string name="muhasebeci_button">Muhasebeci</string>
+    <string name="bilanco_button">Big business</string>
+    <string name="isletme_button">Normal business</string>
+    <string name="basit_usul_button">Small business</string>
+
+    <!-- Activity Accountant Registration -->
+    <string name="accountant_registration_title_text">Burada muhasebeci \nolarak kaydolun</string>
+    <string name="tc_kimlik_enter">TC Kimlik numarası</string>
+    <string name="name_enter">İsim</string>
+    <string name="surname_enter">Soyisim</string>
+    <string name="phone_enter">Telefon numarası</string>
+    <string name="secure_data">Girilen verileri güvenli hale getirin</string>
+    <string name="password_rules">Parolalar hem büyük hem de küçük karakterler içermelidir.
+         Şifreler en az bir sayı içermelidir.</string>
+    <string name="accountant_registration_password">Şifre girin</string>
+    <string name="title_activity_accountant_registration">Muhasebeci kaydı</string>
+
+    <!-- Activity Bank Details -->
+    <string name="activity_bank_details_name">Şirket adı</string>
+    <string name="activity_bank_details_tax">Vergi numarası</string>
+    <string name="activity_bank_details_centSys">Central System</string>
+    <string name="activity_bank_details_cash">Cash</string>
+    <string name="activity_bank_details_cheques_received">Cheques received</string>
+    <string name="activity_bank_details_cheques_given">Cheques given and payment order</string>
+    <string name="activity_bank_details_liquid_assets">Other liquid assets</string>
+
+    <!-- Activity Bank Details Cash Add -->
+    <string name="activity_bank_details_cash_add_title">Kasa bilgilerini girin</string>
+    <string name="activity_bank_details_cash_add_cash">Kasa adı</string>
+    <string name="activity_bank_details_cash_add_cash_number">Kasa numarası</string>
+    <string name="activity_bank_details_cash_add_cash_exchange">Kasanın döviz türü</string>
+    <string name="activity_bank_details_cash_add_check">Limitli</string>
+    <string name="activity_bank_details_cash_add_cash_limit">Kasa limiti</string>
+    <string name="activity_bank_details_cash_add_submit">Gönder</string>
+
+    <!-- Activity bank details cash find -->
+    <string name="activity_bank_details_cash_find_company_name">Şirket adı</string>
+
+    <!-- Activity company profile change password -->
+    <string name="activty_company_profile_change_password_title_1">Mevcut şifreyi girin</string>
+    <string name="activty_company_profile_change_password_title_1_password">Mevcut şifre</string>
+    <string name="activty_company_profile_change_password_title_2">Yeni şifreyi girin</string>
+    <string name="activty_company_profile_change_password_title_2_password">Yeni şifre</string>
+    <string name="activty_company_profile_change_password_title_3">Şifreyi tekrar girin</string>
+    <string name="activty_company_profile_change_password_title_3_password">Tekrar</string>
+    <string name="activty_company_profile_change_password_submit">Gönder</string>
+
+    <!-- Activity company profile edit data -->
+    <string name="activity_profile_edit_data_title">Bilgileri değiştir</string>
+    <string name="activity_profile_edit_data_company_name">Şirket adı</string>
+    <string name="activity_profile_edit_data_company_email">Şirket e-postası</string>
+    <string name="activity_profile_edit_data_company_type">Şirket türü</string>
+    <string name="activity_profile_edit_data_sehir">Şehir</string>
+    <string name="activity_profile_edit_data_ilce">İlçe</string>
+    <string name="activity_profile_edit_data_address">Adres</string>
+    <string name="activity_profile_edit_data_tax">Vergi dairesi</string>
+    <string name="activity_profile_edit_data_submit">Gönder</string>
+
+    <!-- Activity company profile image select -->
+    <string name="activty_company_profile_image_select_button">Fotoğraf yükle</string>
+
+    <!-- Activity depo details -->
+    <string name="activity_depo_details_company_name">Şirket adı</string>
+    <string name="activity_depo_details_tax">Vergi numarası</string>
+    <string name="activity_depo_details_centSys">Mersis</string>
+    <string name="activity_depo_details_find_button">Bul</string>
+    <string name="activity_depo_details_update_button">Güncelle</string>
+    <string name="activity_depo_details_product_name">Ürün adı</string>
+    <string name="activity_depo_details_product_quantity">Sayı</string>
+
+    <!-- activity enterprise add --> 13
+    <string name="activity_enterprise_add_title">Bilgileri değiştir</string>
+    <string name="activity_enterprise_add_company_name">Şirket adı</string>
+    <string name="activity_enterprise_add_company_email">Şirket e-postası</string>
+    <string name="activity_enterprise_add_company_type">Şirket türü</string>
+    <string name="activity_enterprise_add_sehir">Şehir</string>
+    <string name="activity_enterprise_add_ilce">İlçe</string>
+    <string name="activity_enterprise_add_address">Adres</string>
+    <string name="activity_enterprise_add_tax_administraition">Vergi dairesi</string>
+    <string name="activity_enterprise_add_tax_number">Vergi numarası</string>
+    <string name="activity_enterprise_add_centSys">Mersis numarası</string>
+    <string name="activity_enterprise_add_trade_registry_number">Sicil numarası</string>
+    <string name="activity_enterprise_add_password">Şifreyi girin</string>
+    <string name="activity_enterprise_add_submit">Gönder</string>
+
+    <!-- Activty enterprise profile -->
+    <string name="activity_enterprise_profile_close_account">Hesabı kapat</string>
+    <string name="activity_enterprise_profile_company_name">Şirket adı</string>
+    <string name="activity_enterprise_profile_tax">Vergi numarası</string>
+    <string name="activity_enterprise_profile_centSys">Mersis numarası</string>
+    <string name="activity_enterprise_profile_company_type">Şirket türü</string>
+    <string name="activity_enterprise_profile_sehir">Şehir</string>
+    <string name="activity_enterprise_profile_ilce">İlçe</string>
+    <string name="activity_enterprise_profile_tax_administration">Vergi dairesi</string>
+    <string name="activity_enterprise_profile_address">Adres</string>
+    <string name="activity_enterprise_profile_trade_registry_number">Ticaret sicil no</string>
+    <string name="activity_enterprise_profile_company_password">Kurumsal şifre</string>
+    <string name="activity_enterprise_profile_change_data_button">Bilgileri değiştir</string>
+    <string name="activity_enterprise_profile_password_change_button">Parolayı değiştir</string>
+
+    <!-- Activity Esmm Details -->
+    <string name="activity_esmm_details_company_name">Şirket adı</string>
+    <string name="activity_esmm_details_profile_tax">Vergi numarası</string>
+    <string name="activity_esmm_details_profile_centSys">Mersis numarası</string>
+    <string name="activity_esmm_details_find_button">Bul</string>
+    <string name="activity_esmm_details_add_button">Ekle</string>
+
+    <!-- Activity fatura details -->
+    <string name="activity_fatura_details_eFatura">E-fatura</string>
+    <string name="activity_fatura_details_fatura">Fatura</string>
+    <string name="activity_fatura_details_eIrsaliye">E-irsaliye</string>
+    <string name="activity_fatura_details_irsaliye">Irsaliye</string>
+
+    <!-- Activity fatura irsaliye -->
+    <string name="activty_fatura_details_irsaliye_title">Bilgileri ekleyin</string>
+    <string name="activty_fatura_details_irsaliye_product_name">Ürün adı</string>
+    <string name="activty_fatura_details_irsaliye_quantity">Miktarı</string>
+    <string name="activty_fatura_details_irsaliye_product_price">Ürünün fıyatı</string>
+    <string name="activty_fatura_details_irsaliye_kdv">KDV</string>
+    <string name="activty_fatura_details_irsaliye_total_price">Tutarı</string>
+    <string name="activty_fatura_details_irsaliye_delivery_address">Teslimat adresi</string>
+    <string name="activty_fatura_details_irsaliye_submit">Gönder</string>
+
+    <!-- Activity fatura irsaliye -->
+    <string name="activity_fatura_irsaliye_add_title">Ürün listesi</string>
+
+    <!-- Activity fatura irsaliye details -->
+    <string name="activity_fatura_irsaliye_details_company_name">Şirket adı</string>
+    <string name="activity_fatura_irsaliye_details_tax">Vergi numarası</string>
+    <string name="activity_fatura_irsaliye_details_centSys">Mersis</string>
+    <string name="activity_fatura_irsaliye_details_add_button">Ekle</string>
+    <string name="activity_fatura_irsaliye_details_find_button">Bul</string>
+    <string name="activity_fatura_irsaliye_details_delete_button">Sil</string>
+    <string name="activity_fatura_irsaliye_details_update_button">Güncelle</string>
+    <string name="activity_fatura_irsaliye_details_product_name">Ürün adı</string>
+    <string name="activity_fatura_irsaliye_details_product_quantity">Miktar</string>
+    <string name="activity_fatura_irsaliye_details_product_kdv">KDV</string>
+    <string name="activity_fatura_irsaliye_details_product_discount">Iskonto</string>
+
+    <!-- Activity fatura manual -->
+    <string name="activity_fatura_manual_title">Bilgileri ekleyin</string>
+    <string name="activity_fatura_manual_product_name">Ürün adı</string>
+    <string name="activity_fatura_manual_product_quantity">Miktarı</string>
+    <string name="activity_fatura_manual_product_price">Ürünün fıyatı</string>
+    <string name="activity_fatura_manual_product_kdv">KDV</string>
+    <string name="activity_fatura_manual_total_price">Tutarı</string>
+    <string name="activity_fatura_manual_submit">Gönder</string>
+
+    <!-- Activity irsaliye address -->
+    <string name="activity_irsaliye_address_title">Teslimat adresi ekleyin</string>
+    <string name="activity_irsaliye_address_sehir">Şehir</string>
+    <string name="activity_irsaliye_address_ilce">İlçe</string>
+    <string name="activity_irsaliye_address_address">Adres</string>
+    <string name="activity_irsaliye_address_submit">Gönder</string>
+
+    <!-- Activity licence key -->
+    <string name="activity_licence_key_title">Lisans anahtarını girin</string>
+    <string name="activity_licence_key_submit">Gönder</string>
+
+    <!-- Activity product select type -->
+    <string name="activity_product_select_type_trade">Ticari ürünü</string>
+    <string name="activity_product_select_type_factory">Fabrika ürünü</string>
+    <string name="activity_product_select_type_service">Hizmet ürünü</string>
+
+    <!-- Activity products detail '''' -->
+    <string name="activity_products_detail_company_name">Şirket adı</string>
+    <string name="activity_products_detail_tax">Vergi numarası</string>
+    <string name="activity_products_detail_centSys">Mersis</string>
+    <string name="activity_products_detail_add_button">Ekle</string>
+    <string name="activity_products_detail_find_button">Bul</string>
+    <string name="activity_products_detail_delete_button">Sil</string>
+    <string name="activity_products_detail_update_button">Güncelle</string>
+    <string name="activity_products_detail_product_name">Ürün adı</string>
+    <string name="activity_products_detail_product_quantity">Miktar</string>
+    <string name="activity_products_detail_product_kdv">KDV</string>
+    <string name="activity_products_detail_product_discount">Iskonto</string>
+
+    <!-- Activity produts detail add -->
+    <string name="activity_products_detail_add_title">Ürün bilgilerini girin</string>
+    <string name="activity_products_detail_add_product_name">Ürün adı</string>
+    <string name="activity_products_detail_add_product_quantity">Miktar</string>
+    <string name="activity_products_detail_add_kdv">KDV</string>
+    <string name="activity_products_detail_add_discount">İskonto</string>
+    <string name="activity_products_detail_add_price">Fiyat</string>
+    <string name="activity_products_detail_add_submit">Gönder</string>
+
+    <!-- Activity worker detail 15 -->
+    <string name="activity_workers_detail_tc">TC numara</string>
+    <string name="activity_workers_detail_salary">Maaş</string>
+    <string name="activity_workers_detail_position">Pozisyon</string>
+    <string name="activity_workers_detail_job_entering_date">İşe giriş tarihi</string>
+    <string name="activity_workers_detail_age">Yaş</string>
+    <string name="activity_workers_detail_sehir">Şehir</string>
+    <string name="activity_workers_detail_ilce">Ilçe</string>
+    <string name="activity_workers_detail_address">Adres</string>
+    <string name="activity_workers_detail_education">Mezuniyet</string>
+    <string name="activity_workers_detail_graduation_year">Mezuniyet yılı</string>
+    <string name="activity_workers_detail_sgk">SGK veya Bağ-kur</string>
+    <string name="activity_workers_detail_ssk">SSK</string>
+    <string name="activity_workers_detail_clear_button">Sil</string>
+    <string name="activity_workers_detail_change_data_button">Bilgileri değiştir</string>
+
+    <!-- activity workers profile -->
+    <string name="activity_workers_profile_title">İşçi profili</string>
+    <string name="activity_workers_profile_full_name">Ad ve soyad</string>
+    <string name="activity_workers_profile_tc">TC numara</string>
+    <string name="activity_workers_profile_sehir">Şehir</string>
+    <string name="activity_workers_profile_ilce">Ilçe</string>
+    <string name="activity_workers_profile_address">Adres</string>
+    <string name="activity_workers_profile_salary">Maaş</string>
+    <string name="activity_workers_profile_position">Pozisyon</string>
+    <string name="activity_workers_profile_job_entering_date">İşe giriş tarihi</string>
+    <string name="activity_workers_profile_date_of_born">Doğum tarihi</string>
+    <string name="activity_workers_profile_meslek_code">Meslek kodu</string>
+    <string name="activity_workers_profile_education">Mezuniyet</string>
+    <string name="activity_workers_profile_graduation_year">Mezuniyet yılı</string>
+    <string name="activity_workers_profile_sgk">SGK veya Bağ-kur</string>
+    <string name="activity_workers_profile_ssk">SSK (Teşvik)</string>
+    <string name="activity_workers_profile_submit">Gönder</string>
+
+    <!-- Bank details cash find recycler -->
+    <string name="bank_details_cash_find_recycler_title">Kasanın adı</string>
+    <string name="bank_details_cash_find_recycler_amount_of_money">Kasada ne kadar oldu</string>
+
+    <!-- Enterprise add context menu -->
+    <string name="enterprise_add_context_menu_manual">Manual</string>
+    <string name="enterprise_add_context_menu_qr_code">QR-code</string>
+
+    <!-- Fatura irsaliye add recycler -->
+    <string name="fatura_irsaliye_add_recycler_iskonto">iskonto</string>
+    <string name="fatura_irsaliye_add_recycler_product_name">Ürün adı</string>
+
+    <!-- Fatura irsaliye add second recycler -->
+    <string name="fatura_irsaliye_add_second_recycler_id">Id</string>
+    <string name="fatura_irsaliye_add_second_recycler_product_name">Ürün adı</string>
+    <string name="fatura_irsaliye_add_second_recycler_tarih">Tarih</string>
+    <string name="fatura_irsaliye_add_second_recycler_toplam_fiyat">Toplam fiyat</string>
+    <string name="fatura_irsaliye_add_second_recycler_address">Adres</string>
+
+    <!-- Fatura normal first recycler -->
+    <string name="fatura_normal_first_recycler_iskonto">iskonto</string>
+    <string name="fatura_normal_first_recycler_product_name">Ürün adı</string>
+
+    <!-- Fatura normal second recycler -->
+    <string name="fatura_normal_second_recycler_id">Id</string>
+    <string name="fatura_normal_second_recycler_product_name">Ürün adı</string>
+    <string name="fatura_normal_second_recycler_tarih">Tarih</string>
+    <string name="fatura_normal_second_recycler_toplam_fiyat">Toplam fiyat</string>
+
+    <!-- Fragment depo details find -->
+    <string name="fragment_depo_details_find_title">Ürünü bulmak için verileri girin</string>
+    <string name="fragment_depo_details_find_product_name">Ürün adı</string>
+    <string name="fragment_depo_details_find_find_button">Bul</string>
+
+    <!-- Fragment depo details update -->
+    <string name="fragment_depo_details_update_title">Ürün bilgilerini girin</string>
+    <string name="fragment_depo_details_update_product_name">Ürün adı</string>
+    <string name="fragment_depo_details_update_quantity">Miktar</string>
+    <string name="fragment_depo_details_update_submit">Gönder</string>
+
+    <!-- Fragment products detail delete -->
+    <string name="fragment_products_detail_delete_title">Ürünü silmek için verileri girin</string>
+    <string name="fragment_products_detail_delete_product_name">Ürün adı</string>
+    <string name="fragment_products_detail_delete_delete_button">Sil</string>
+
+    <!-- Fragment products detail find -->
+    <string name="fragment_products_detail_find_title">Ürünü bulmak için verileri girin</string>
+    <string name="fragment_products_detail_find_product_name">Ürün adı</string>
+    <string name="fragment_products_detail_find_delete_button">Bul</string>
+
+    <!-- Fragment tabs bank -->
+    <string name="fragment_tabs_bank_title">Kasa/Banka islemleri</string>
+    <string name="fragment_tabs_bank_find_button">Bul</string>
+    <string name="fragment_tabs_bank_search">Ara</string>
+
+    <!-- Fragment tabs companies -->
+    <string name="fragment_tabs_companies_title">Şirketlerim</string>
+    <string name="fragment_tabs_companies_add">Ekle</string>
+    <string name="fragment_tabs_companies_find">Bul</string>
+    <string name="fragment_tabs_companies_delete">Sil</string>
+    <string name="fragment_tabs_companies_update">Güncelle</string>
+
+    <!-- Fragment tabs depo -->
+    <string name="fragment_tabs_depo_depo_takibi">Depo takibi</string>
+    <string name="fragment_tabs_depo_find">Bul</string>
+    <string name="fragment_tabs_depo_search">Ara</string>
+
+    <!-- Fragment tabs esmm -->
+    <string name="fragment_tabs_esmm_title">E-smm makbuzu</string>
+    <string name="fragment_tabs_esmm_find">Bul</string>
+    <string name="fragment_tabs_esmm_search">Ara</string>
+
+    <!-- Fragment tabs fatura -->
+    <string name="fragment_tabs_fatura_title">Fatura işlemleri</string>
+    <string name="fragment_tabs_fatura_add">Ekle</string>
+    <string name="fragment_tabs_fatura_find">Bul</string>
+
+    <!-- Fragment tabs ithalat -->
+    <string name="fragment_tabs_export_and_import_title">Ithalat ve ihracat</string>
+    <string name="fragment_tabs_export_and_import_add">Ekle</string>
+    <string name="fragment_tabs_export_and_import_find">Bul</string>
+    <string name="fragment_tabs_export_and_import_delete">Sil</string>
+
+    <!-- Fragment tabs menkul -->
+    <string name="fragment_tabs_menkul_title">Menkul kiymetler</string>
+    <string name="fragment_tabs_menkul_add">Ekle</string>
+    <string name="fragment_tabs_menkul_find">Bul</string>
+    <string name="fragment_tabs_menkul_delete">Sil</string>
+    <string name="fragment_tabs_menkul_update">Güncelle</string>
+
+    <!-- Fragment tabs menu -->
+    <string name="fragment_tabs_menu_confirm_account">Hesap doğrulaması</string>
+    <string name="fragment_tabs_menu_close_account">Hesabı kapat</string>
+    <string name="fragment_tabs_menu_telefon_number">Telefon no</string>
+    <string name="fragment_tabs_menu_tc_kimlik_number">TC kimlik no</string>
+    <string name="fragment_tabs_menu_age">Yaş</string>
+    <string name="fragment_tabs_menu_user_website">Kullanıcı websitesi</string>
+    <string name="fragment_tabs_menu_sehir">Şehir</string>
+    <string name="fragment_tabs_menu_ilce">İlçe</string>
+    <string name="fragment_tabs_menu_address">Adres</string>
+    <string name="fragment_tabs_menu_tax_administration">Vergi müdürlüğü</string>
+    <string name="fragment_tabs_menu_change_data_button">Bilgileri değiştir</string>
+    <string name="fragment_tabs_menu_change_password_button">Parolayı değiştir</string>
+    <string name="fragment_tabs_menu_stop_account_button">Hesabı dondur</string>
+
+    <!-- Fragment tabs mizan -->
+    <string name="fragment_tabs_mizan_title">Mizan defteri</string>
+    <string name="fragment_tabs_mizan_find_button">Bul</string>
+
+    <!-- Fragment tabs products -->
+    <string name="fragment_tabs_products_title">Ürünler ve hizmetler</string>
+    <string name="fragment_tabs_products_find">Bul</string>
+    <string name="fragment_tabs_products_search_input">Ara</string>
+
+    <!-- Fragment tabs workers -->
+    <string name="fragment_tabs_workers_title">Çalışanlar</string>
+    <string name="fragment_tabs_workers_find">Bul</string>
+
+
+
+
+    <!-- Normal Business Taxation Registration Values -->
+    <string name="business_taxation_registration_title">Normal business taxation</string>
+    <string name="business_turkish_id">Turkish id number</string>
+    <string name="business_tax_number">Vergi numarası</string>
+    <string name="business_enterprise_email">Enterprise email</string>
+    <string name="business_enterprise_password">Enterprise password</string>
+    <string name="business_submit_button">Welcome to Paradise!</string>
+
+    <!-- TabLayout String values -->
+    <string name="tab1_text">Menu</string>
+    <string name="tab2_text">Companies</string>
+    <string name="tab3_text">Accountant fee</string>
+    <string name="tab4_text">Warehouse</string>
+    <string name="tab5_text">Workers</string>
+    <string name="tab6_text">Products and services</string>
+    <string name="tab7_text">Invoice operations</string>
+    <string name="tab8_text">Balance</string>
+    <string name="tab9_text">Cash/Bank operations</string>
+    <string name="tab10_text">Export and Import</string>
+    <string name="tab11_text">Stock operations</string>
+
+    <!-- Menu Fragment | Profile fragment values -->
+    <string name="name_surname_example">Yusuf Salim Ozbek</string>
+
+
+    <!-- BankDetailsActivity values -->
+    <string-array name="popup_menu_options">
+        <item>Add</item>
+        <item>Sil</item>
+        <item>Bul</item>
+        <item>Güncelle</item>
+    </string-array>
+
+
+</resources>

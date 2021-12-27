@@ -11,7 +11,7 @@
     <TextView android:id="@+id/esmm_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="E-smm makbuzu"
+        android:text="@string/fragment_tabs_esmm_title"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -55,7 +55,7 @@
             android:id="@+id/esmm_find_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Find"
+            android:text="@string/fragment_tabs_esmm_find"
             android:textAllCaps="false"
             android:textSize="14sp"
             android:padding="12dp"
@@ -86,7 +86,7 @@
             android:imeOptions="actionSearch"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Ara"
+            android:hint="@string/fragment_tabs_esmm_search"
             android:inputType="text"
             />
     </com.google.android.material.textfield.TextInputLayout>

@@ -15,7 +15,7 @@
             android:id="@+id/depo_details_find_fragment_title_tv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ürünü bulmak için verileri girin"
+            android:text="@string/fragment_depo_details_find_title"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -39,7 +39,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Ürün adı"
+                android:hint="@string/fragment_depo_details_find_product_name"
                 android:inputType="text"
                 />
 
@@ -64,7 +64,7 @@
             android:layout_marginEnd="4dp"
             android:layout_marginTop="14dp"
             android:padding="12dp"
-            android:text="Bul"
+            android:text="@string/fragment_depo_details_find_find_button"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
