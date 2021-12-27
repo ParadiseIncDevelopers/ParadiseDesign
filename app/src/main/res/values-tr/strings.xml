@@ -364,6 +364,16 @@
     <string name="business_enterprise_password">Enterprise password</string>
     <string name="business_submit_button">Welcome to Paradise!</string>
 
+    <!-- Fatura cash representative Activity -->
+    <string name="activity_fatura_cash_representative_cash">Cash</string>
+    <string name="activity_fatura_cash_representative_banks">Banks</string>
+    <string name="activity_fatura_cash_representative_buyers">Buyers</string>
+
+    <!-- Fatura cash recycler values -->
+    <string name="fatura_cash_representative_cash_recycler_title">Cash title</string>
+    <string name="fatura_cash_representative_banks_recycler_title">Bank title</string>
+    <string name="fatura_cash_representative_buyers_recycler_title">Buyer\'s title</string>
+
     <!-- TabLayout String values -->
     <string name="tab1_text">Menu</string>
     <string name="tab2_text">Companies</string>

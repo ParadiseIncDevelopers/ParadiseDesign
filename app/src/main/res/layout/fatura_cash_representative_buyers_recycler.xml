@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorSecondary"
+    android:layout_margin="4dp"
+    android:padding="8dp">
+
+    <ImageView android:id="@+id/fatura_cash_representative_buyers_recycler_photo"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_clocks"
+        app:tint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/fatura_cash_representative_buyers_recycler_title"
+        android:text="@string/fatura_cash_representative_buyers_recycler_title"
+        android:layout_marginStart="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/fatura_cash_representative_buyers_recycler_photo"
+        app:layout_constraintBottom_toBottomOf="@id/fatura_cash_representative_buyers_recycler_photo"
+        app:layout_constraintTop_toTopOf="@id/fatura_cash_representative_buyers_recycler_photo"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fatura_cash_representative_buyers_recycler_card"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        app:cardCornerRadius="50dp"
+        android:layout_marginEnd="4dp"
+        app:cardBackgroundColor="?attr/colorPrimary"
+        app:cardElevation="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <ImageView android:id="@+id/fatura_cash_representative_buyers_recycler_photo_arrow"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_arrow_right"
+            app:tint="@color/white"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
