@@ -374,6 +374,17 @@
     <string name="fatura_cash_representative_banks_recycler_title">Bank title</string>
     <string name="fatura_cash_representative_buyers_recycler_title">Buyer\'s title</string>
 
+    <!-- Activity products factory process adder title -->
+    <string name="activity_products_factory_process_adder_title">Add processes</string>
+    <string name="activity_products_factory_process_adder_add">Add</string>
+    <string name="activity_products_factory_process_adder_delete">Delete</string>
+    <string name="activity_products_factory_process_adder_input">Process name</string>
+    <string name="activity_products_factory_process_adder_auto">Delete process</string>
+
+    <!-- Recycler products factory process adder -->
+    <string name="recycler_products_factory_process_adder_title">Process title</string>
+
+
     <!-- TabLayout String values -->
     <string name="tab1_text">Menu</string>
     <string name="tab2_text">Companies</string>

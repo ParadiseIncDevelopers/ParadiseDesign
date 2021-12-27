@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ParadiseDesign">
         <activity
+            android:name=".tabs.products.factory.ProductsFactoryProcessAdderActivity"
+            android:exported="true" />
+        <activity
             android:name=".tabs.fatura.cash.FaturaCashRepresentativeActivity"
             android:exported="true" />
         <activity

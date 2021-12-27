@@ -80,23 +80,26 @@
 
         <Button
             android:id="@+id/depo_details_find_button"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:padding="12dp"
+            android:padding="8dp"
             android:text="@string/activity_depo_details_find_button"
             android:textAllCaps="false"
-            android:textSize="14sp"
-            android:layout_margin="2dp"/>
+            android:textSize="12sp"
+            android:layout_margin="4dp"
+            />
 
         <Button
             android:id="@+id/depo_details_update_button"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:padding="12dp"
+            android:padding="8dp"
             android:text="@string/activity_depo_details_update_button"
             android:textAllCaps="false"
-            android:textSize="14sp"
-            android:layout_margin="2dp"
+            android:textSize="12sp"
+            android:layout_margin="4dp"
             />
 
     </LinearLayout>
