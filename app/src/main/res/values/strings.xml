@@ -354,8 +354,6 @@
     <string name="fragment_tabs_workers_find">Find</string>
 
 
-
-
     <!-- Normal Business Taxation Registration Values -->
     <string name="business_taxation_registration_title">Normal business taxation</string>
     <string name="business_turkish_id">Turkish id number</string>
@@ -379,6 +377,9 @@
 
     <!-- Menu Fragment | Profile fragment values -->
     <string name="name_surname_example">Yusuf Salim Ozbek</string>
+    <string name="activity_fatura_cash_representative_cash">Cash</string>
+    <string name="activity_fatura_cash_representative_banks">Banks</string>
+    <string name="activity_fatura_cash_representative_buyers">Buyers</string>
 
 
     <!-- BankDetailsActivity values -->

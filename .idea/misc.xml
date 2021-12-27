@@ -6,20 +6,32 @@
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_add_plus.xml" value="0.12" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_apartment.xml" value="0.25435897435897437" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_bank_building_taxes.xml" value="0.25435897435897437" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_bank_kasa.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_bill_fatura.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_building.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_company_enterprise.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_company_mersis.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_company_vergi_numarasi.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_confirm.xml" value="0.13802083333333334" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_cross_symbol.xml" value="0.13802083333333334" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_fatura_paper.xml" value="0.25435897435897437" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_find_icon.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_mizan_balance.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_money_back.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_money_esmm.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_office_worker.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_pay_money.xml" value="0.25435897435897437" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_pharmacy_medicine.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_plus2.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_plus_line.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_products_and_services.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_qr_code_scan.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_remove.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_search2.xml" value="0.25435897435897437" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_taxes_bill.xml" value="0.25435897435897437" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_update.xml" value="0.13802083333333334" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_user_persona.xml" value="0.25435897435897437" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/ic_warehouse_depo.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/rectangular_borders.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/rectangular_borders_colored.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/drawable/rectangular_borders_colored_accent.xml" value="0.13802083333333334" />
@@ -49,6 +61,7 @@
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_enterprise_profile.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_entreprise_add.xml" value="0.4" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_esmm_details.xml" value="0.264" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_fatura_cash_representative.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_fatura_details.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_fatura_irsaliye.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_fatura_irsaliye_add.xml" value="0.264" />

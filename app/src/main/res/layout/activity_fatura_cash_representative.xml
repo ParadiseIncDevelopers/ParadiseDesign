@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StarterRepresentativeActivity">
+
+
+    <Button
+        android:id="@+id/fatura_cash_representative_cash"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/rectangular_borders_colored"
+        android:text="@string/activity_fatura_cash_representative_cash"
+        android:textAllCaps="false"
+        android:textColor="?attr/colorOnPrimary"
+        app:icon="@drawable/ic_cashbox_com"
+        app:iconSize="40dp"
+        app:layout_constraintVertical_bias="0.28"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/fatura_cash_representative_banks"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/rectangular_borders_colored"
+        android:text="@string/activity_fatura_cash_representative_banks"
+        android:textAllCaps="false"
+        android:textColor="?attr/colorOnPrimary"
+        app:icon="@drawable/ic_bank_building_taxes"
+        app:iconSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fatura_cash_representative_cash" />
+
+
+    <Button
+        android:id="@+id/fatura_cash_representative_buyers"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/rectangular_borders_colored"
+        android:text="@string/activity_fatura_cash_representative_buyers"
+        android:textAllCaps="false"
+        android:textColor="?attr/colorOnPrimary"
+        app:icon="@drawable/ic_clocks"
+        app:iconSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fatura_cash_representative_banks" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
