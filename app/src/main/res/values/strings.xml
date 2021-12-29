@@ -382,6 +382,13 @@
     <!-- Recycler products factory process adder -->
     <string name="recycler_products_factory_process_adder_title">Process title</string>
 
+    <!-- Activity export export details activity -->
+    <string name="activity_export_detail_centSys">CentSys</string>
+    <string name="activity_export_detail_tax_number">Tax number</string>
+    <string name="activity_export_detail_company_name">Company name</string>
+    <string name="activity_export_detail_export_button">Export</string>
+    <string name="activity_export_detail_import_button">Import</string>
+
     <!-- TabLayout String values -->
     <string name="tab1_text">Menu</string>
     <string name="tab2_text">Companies</string>

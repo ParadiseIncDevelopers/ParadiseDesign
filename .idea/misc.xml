@@ -61,6 +61,7 @@
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_enterprise_profile.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_entreprise_add.xml" value="0.4" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_esmm_details.xml" value="0.264" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_export_details.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_fatura_cash_representative.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_fatura_details.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/activity_fatura_irsaliye.xml" value="0.2421875" />
@@ -120,7 +121,7 @@
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_tabs_eskm.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_tabs_esmm.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_tabs_fatura.xml" value="0.264" />
-        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_tabs_ithalat.xml" value="0.264" />
+        <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_tabs_ithalat.xml" value="0.4" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_tabs_menkul.xml" value="0.2421875" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_tabs_menu.xml" value="0.264" />
         <entry key="..\:/Users/r/AndroidStudioProjects/ParadiseDesign/app/src/main/res/layout/fragment_tabs_mizan.xml" value="0.2421875" />
