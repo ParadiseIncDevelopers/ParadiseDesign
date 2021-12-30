@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ParadiseDesign">
         <activity
+            android:name=".tabs.products.factory.FactoryAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tabs.products.service.ServiceAddActivity"
+            android:exported="true" />
+        <activity
             android:name=".tabs.export.ExportDetailsActivity"
             android:exported="true" />
         <activity

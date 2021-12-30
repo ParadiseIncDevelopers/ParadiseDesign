@@ -389,6 +389,24 @@
     <string name="activity_export_detail_export_button">Export</string>
     <string name="activity_export_detail_import_button">Import</string>
 
+    <!-- Activity products service add -->
+    <string name="activity_product_service_add_title">Enter product information</string>
+    <string name="activity_product_service_add_product_name">Product name</string>
+    <string name="activity_product_service_add_quantity">Quantity</string>
+    <string name="activity_product_service_add_kdv">VAT</string>
+    <string name="activity_product_service_add_discount">Discount</string>
+    <string name="activity_product_service_add_price">Price</string>
+    <string name="activity_product_service_add_section">Section</string>
+    <string name="activity_product_service_add_submit">Submit</string>
+
+    <!-- Activity products factory add -->
+    <string name="activity_products_factory_add_title">Enter product information</string>
+    <string name="activity_products_factory_add_product_name">Product name</string>
+    <string name="activity_products_factory_add_kdv">VAT</string>
+    <string name="activity_products_factory_add_iskonto">Discount</string>
+    <string name="activity_products_factory_add_price">Price</string>
+    <string name="activity_products_factory_add_submit">Submit</string>
+
     <!-- TabLayout String values -->
     <string name="tab1_text">Menu</string>
     <string name="tab2_text">Companies</string>
