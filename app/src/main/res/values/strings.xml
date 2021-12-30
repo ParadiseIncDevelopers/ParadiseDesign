@@ -407,6 +407,13 @@
     <string name="activity_products_factory_add_price">Price</string>
     <string name="activity_products_factory_add_submit">Submit</string>
 
+    <!-- Activity menkul details -->
+    <string name="activity_menkul_details_company_name">Company name</string>
+    <string name="activity_menkul_details_tax_number">Tax number</string>
+    <string name="activity_menkul_details_centsys">CentSys</string>
+    <string name="activity_menkul_details_export">Export</string>
+    <string name="activity_menkul_details_import">Import</string>
+
     <!-- TabLayout String values -->
     <string name="tab1_text">Menu</string>
     <string name="tab2_text">Companies</string>
