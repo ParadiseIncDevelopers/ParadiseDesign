@@ -120,4 +120,11 @@ public class FactoryAddActivity extends AppCompatActivity {
             }
         });
     }
+
+    private boolean checkField(TextInputLayout inputLayout) {
+        if (inputLayout.getEditText().getText().toString().matches("")) {
+            return false;
+        } else
+            return true;
+    }
 }

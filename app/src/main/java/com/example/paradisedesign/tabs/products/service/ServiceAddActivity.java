@@ -15,6 +15,8 @@ import android.widget.TextView;
 import com.example.paradisedesign.R;
 import com.google.android.material.textfield.TextInputLayout;
 
+import java.util.function.Supplier;
+
 public class ServiceAddActivity extends AppCompatActivity {
 
     private TextView products_service_add_fragment_title_tv;
@@ -118,6 +120,18 @@ public class ServiceAddActivity extends AppCompatActivity {
         });
 
         products_service_add_fragment_submit_button.setOnClickListener(view -> {
+
+            Supplier<Boolean> isAllFieldsFilled = () -> {
+                if (isInputFilled(products_service_add_fragment_name_of_product) &&
+                isInputFilled(products_service_add_fragment_number_of_product) &&
+                isInputFilled(products_service_add_fragment_iskonto) &&
+                isInputFilled(products_service_add_fragment_fiyat)) {
+                    return true;
+                } else {
+                    return false;
+                }
+            };
+
         });
     }
 
@@ -155,5 +169,12 @@ public class ServiceAddActivity extends AppCompatActivity {
         });
 
 
+    }
+
+    private boolean isInputFilled(TextInputLayout inputLayout) {
+        if (inputLayout.getEditText().getText().toString().matches("")) {
+            return false;
+        } else
+            return true;
     }
 }

@@ -10,9 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.paradisedesign.R;
-import com.example.paradisedesign.tabs.products.ProductsDetailAddActivity;
 import com.google.android.material.textfield.TextInputLayout;
-import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -93,62 +91,62 @@ public class WorkersProfileActivity extends AppCompatActivity {
         {
 
             Supplier<Boolean> allTextInputs = () -> {
-                if (checkField(workers_profile_name) && checkField(workers_profile_tc_no) &&
-                        checkField(workers_profile_address) && checkField(workers_profile_position) &&
-                        checkField(workers_profile_year_of_entering) && checkField(workers_profile_mezuniyet) &&
-                        checkField(workers_profile_mezuniyet_yili) && checkField(workers_profile_date_of_born) &&
-                        checkField(workers_profile_meslek_kodu) && checkField(workers_profile_salary))  {
+                if (isInputFilled(workers_profile_name) && isInputFilled(workers_profile_tc_no) &&
+                        isInputFilled(workers_profile_address) && isInputFilled(workers_profile_position) &&
+                        isInputFilled(workers_profile_year_of_entering) && isInputFilled(workers_profile_mezuniyet) &&
+                        isInputFilled(workers_profile_mezuniyet_yili) && isInputFilled(workers_profile_date_of_born) &&
+                        isInputFilled(workers_profile_meslek_kodu) && isInputFilled(workers_profile_salary))  {
                     return true;
                 } else
                     return false;
         };
 
-            if (!checkField(workers_profile_name)) {
+            if (!isInputFilled(workers_profile_name)) {
                 Toast.makeText(WorkersProfileActivity.this, "Ad soyad field is not entered.",
                         Toast.LENGTH_SHORT).show();
             }
 
-            if (!checkField(workers_profile_tc_no)) {
+            if (!isInputFilled(workers_profile_tc_no)) {
                 Toast.makeText(WorkersProfileActivity.this, "TC no field is not entered.",
                         Toast.LENGTH_SHORT).show();
             }
 
-            if (!checkField(workers_profile_address)) {
+            if (!isInputFilled(workers_profile_address)) {
                 Toast.makeText(WorkersProfileActivity.this, "Adres field is not entered.",
                         Toast.LENGTH_SHORT).show();
             }
 
-            if (!checkField(workers_profile_position)) {
+            if (!isInputFilled(workers_profile_position)) {
                 Toast.makeText(WorkersProfileActivity.this, "Position field is not entered.",
                         Toast.LENGTH_SHORT).show();
             }
 
-            if (!checkField(workers_profile_year_of_entering)) {
+            if (!isInputFilled(workers_profile_year_of_entering)) {
                 Toast.makeText(WorkersProfileActivity.this, "Date of entering field is not entered.",
                         Toast.LENGTH_SHORT).show();
             }
 
-            if (!checkField(workers_profile_mezuniyet)) {
+            if (!isInputFilled(workers_profile_mezuniyet)) {
                 Toast.makeText(WorkersProfileActivity.this, "Mezuniyet field is not entered.",
                         Toast.LENGTH_SHORT).show();
             }
 
-            if (!checkField(workers_profile_mezuniyet_yili)) {
+            if (!isInputFilled(workers_profile_mezuniyet_yili)) {
                 Toast.makeText(WorkersProfileActivity.this, "Mezuniyet yili field is not entered.",
                         Toast.LENGTH_SHORT).show();
             }
 
-            if (!checkField(workers_profile_date_of_born)) {
+            if (!isInputFilled(workers_profile_date_of_born)) {
                 Toast.makeText(WorkersProfileActivity.this, "Birthdate field is not entered.",
                         Toast.LENGTH_SHORT).show();
             }
 
-            if (!checkField(workers_profile_meslek_kodu)) {
+            if (!isInputFilled(workers_profile_meslek_kodu)) {
                 Toast.makeText(WorkersProfileActivity.this, "Meslek kodu field is not entered.",
                         Toast.LENGTH_SHORT).show();
             }
 
-            if (!checkField(workers_profile_salary)) {
+            if (!isInputFilled(workers_profile_salary)) {
                 Toast.makeText(WorkersProfileActivity.this, "Salary kodu field is not entered.",
                         Toast.LENGTH_SHORT).show();
             }
@@ -227,7 +225,7 @@ public class WorkersProfileActivity extends AppCompatActivity {
 
     }
 
-    private boolean checkField(TextInputLayout inputLayout) {
+    private boolean isInputFilled(TextInputLayout inputLayout) {
         if (inputLayout.getEditText().getText().toString().matches("")) {
             return false;
         } else
