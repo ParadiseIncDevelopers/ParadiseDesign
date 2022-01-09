@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ParadiseDesign">
         <activity
+            android:name=".tabs.TabsRepresentativeActivity"
+            android:exported="true" />
+        <activity
             android:name=".tabs.menkul.MenkulDetailsActivity"
             android:exported="true" />
         <activity

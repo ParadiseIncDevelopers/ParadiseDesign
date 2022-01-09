@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".tabs.TabsRepresentativeActivity">
+
+
+        <Button
+            android:id="@+id/tabs_representative_bank"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rectangular_borders_colored"
+            android:text="@string/fragment_tabs_bank_title"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorOnPrimary"
+            app:icon="@drawable/ic_bank_kasa"
+            app:iconSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/tabs_representative_warehouse"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rectangular_borders_colored"
+            android:text="@string/fragment_tabs_depo_depo_takibi"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorOnPrimary"
+            app:icon="@drawable/ic_warehouse_depo"
+            app:iconSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tabs_representative_bank" />
+
+
+        <Button
+            android:id="@+id/tabs_representative_esmm"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rectangular_borders_colored"
+            android:text="@string/fragment_tabs_esmm_title"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorOnPrimary"
+            app:icon="@drawable/ic_money_esmm"
+            app:iconSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tabs_representative_warehouse" />
+
+
+        <Button
+            android:id="@+id/tabs_representative_fatura"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rectangular_borders_colored"
+            android:text="@string/fragment_tabs_fatura_title"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorOnPrimary"
+            app:icon="@drawable/ic_bill_fatura"
+            app:iconSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tabs_representative_esmm" />
+
+
+        <Button
+            android:id="@+id/tabs_representative_ithalat"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rectangular_borders_colored"
+            android:text="@string/fragment_tabs_export_and_import_title"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorOnPrimary"
+            app:icon="@drawable/ic_export_ithalat"
+            app:iconSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tabs_representative_fatura" />
+
+        <Button
+            android:id="@+id/tabs_representative_menkul"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rectangular_borders_colored"
+            android:text="@string/fragment_tabs_menkul_title"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorOnPrimary"
+            app:icon="@drawable/ic_assets_menkul"
+            app:iconSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tabs_representative_ithalat" />
+
+
+        <Button
+            android:id="@+id/tabs_representative_mizan"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rectangular_borders_colored"
+            android:text="@string/fragment_tabs_mizan_title"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorOnPrimary"
+            app:icon="@drawable/ic_mizan_balance"
+            app:iconSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tabs_representative_menkul" />
+
+
+        <Button
+            android:id="@+id/tabs_representative_products"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rectangular_borders_colored"
+            android:text="@string/fragment_tabs_products_title"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorOnPrimary"
+            app:icon="@drawable/ic_products_and_services"
+            app:iconSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tabs_representative_mizan" />
+
+        <Button
+            android:id="@+id/tabs_representative_workers"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginBottom="22dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rectangular_borders_colored"
+            android:text="@string/fragment_tabs_workers_title"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorOnPrimary"
+            app:icon="@drawable/ic_workers"
+            app:iconSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tabs_representative_products"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

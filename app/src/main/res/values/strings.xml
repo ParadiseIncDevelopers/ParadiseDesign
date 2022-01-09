@@ -431,7 +431,6 @@
     <string name="name_surname_example">Yusuf Salim Ozbek</string>
 
 
-
     <!-- BankDetailsActivity values -->
     <string-array name="popup_menu_options">
         <item>Add</item>
